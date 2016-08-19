@@ -1,0 +1,1 @@
+# omiyagego_MINTIA
