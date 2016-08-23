@@ -47,20 +47,7 @@ public class MainActivity extends Activity {
             }
         };
 
-        String username = "user1";
-        String password = "123ABC";
-        KiiUser.logIn(new KiiUserCallBack() {
-            @Override
-            public void onLoginCompleted(int token, KiiUser user, Exception exception) {
-                if (exception != null) {
-                    Toast.makeText(MainActivity.this, "Error login user:" + exception.getMessage(), Toast.LENGTH_LONG).show();
-                    return;
-                }
-                Toast.makeText(MainActivity.this, "Succeeded to login", Toast.LENGTH_LONG).show();
-                Intent intent = new Intent(MainActivity.this, RegistrationIntentService.class);
-                startService(intent);
-            }
-        }, username, password);
+
     }
 
     private boolean checkPlayServices() {
