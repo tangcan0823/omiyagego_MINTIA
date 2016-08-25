@@ -51,18 +51,18 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
     }
 
     private void switchToOsake() {
-        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new FoodFragment()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new WineFragment()).commit();
         mToolbar.setTitle(R.string.navigation_osake);
     }
 
     private void switchToKougehin() {
-        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new FoodFragment()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new CraftFragment()).commit();
         mToolbar.setTitle(R.string.navigation_kougehin);
     }
 
 
     private void switchToAbout() {
-        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new FoodFragment()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new ContactFragment()).commit();
         mToolbar.setTitle(R.string.navigation_about);
     }
 
