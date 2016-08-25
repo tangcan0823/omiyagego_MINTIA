@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MINTIA</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <string name="navigation_okashi">お菓子</string>
+    <string name="navigation_osake">お酒</string>
+    <string name="navigation_kougehin">工芸品</string>
+    <string name="navigation_about">Contact Us</string>
+
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="press_again_exit_app">もう一度押すとアプリを落とす</string>
+
+
+    <string name="food_title_1">ゴールドプリン(5個入り)</string>
+    <string name="food_description_1">店舗: つくばプリン ふじ屋 \n住所: 茨城県桜川市真壁町飯塚113-1 \n営業時間: 10:00-19:00 \n電話: 0296-54-2401 \n価格: 1940円</string>
+
+
+    <string name="food_title_2">キャラメルプリン(5個入り)</string>
+    <string name="food_description_2">店舗: つくば陣屋 \n住所: 茨城県つくば市学園の森 \n営業時間: 110:00-18:00 \n電話: 029-879-9101 \n価格: 2260円</string>
+
+
+    <string name="food_title_3">つくばうむ</string>
+    <string name="food_description_3">店舗: コート・ダジュール \n住所: つくば市東新井19-26 \n営業時間: 9:30-19:30 \n電話: 0120-58-3094 \n価格: 1250円</string>
+
+    <string name="search">捜索</string>
+    <string name="input_hint">キーワードを入力してください</string>
+    <string name="input_prefill"></string>
+    <string name="title_buttom_tab">Buttom Tab</string>
+
+
+</resources>
