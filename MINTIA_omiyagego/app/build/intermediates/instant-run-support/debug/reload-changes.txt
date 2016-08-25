@@ -1,0 +1,4 @@
+CHANGED,C:\Users\tangcan0823\Desktop\Android-git\omiyagego_MINTIA\MINTIA_omiyagego\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\tangcan0823\mintia_omiyagego\MainActivity$2$override.class
+CHANGED,C:\Users\tangcan0823\Desktop\Android-git\omiyagego_MINTIA\MINTIA_omiyagego\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class
+CHANGED,C:\Users\tangcan0823\Desktop\Android-git\omiyagego_MINTIA\MINTIA_omiyagego\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\tangcan0823\mintia_omiyagego\MainActivity$1$override.class
+CHANGED,C:\Users\tangcan0823\Desktop\Android-git\omiyagego_MINTIA\MINTIA_omiyagego\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\example\tangcan0823\mintia_omiyagego\MainActivity$override.class
