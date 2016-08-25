@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
             profileView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    switchToOkashi();
+                   // switchToOkashi();
                     mDrawerLayout.closeDrawers();
                     mNavigationView.getMenu().getItem(1).setChecked(true);
                 }
