@@ -1,5 +1,6 @@
 package com.example.tangcan0823.mintia_omiyagego;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
@@ -40,10 +41,14 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
         //profile Image
         setUpProfileImage();
 
-        //  switchToBook();
 
     }
 
+
+    public void goDetail(View view){
+        Intent intent = new Intent(this,DetailActivity.class);
+        startActivity(intent);
+    }
 
     private void switchToOkashi() {
         getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new FoodFragment()).commit();
