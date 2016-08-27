@@ -46,8 +46,21 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
 
 
     public void goDetail(View view){
-        Intent intent = new Intent(this,DetailActivity.class);
-        startActivity(intent);
+        switch(view.getId()){
+            case R.id.okashi1:
+                Toast.makeText(this,"ゴールドプリン",Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(this,DetailActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.okashi2:
+                Toast.makeText(this,"キャラメルプリン",Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.okashi3:
+                Toast.makeText(this,"つくばうむ",Toast.LENGTH_SHORT).show();
+                break;
+            default:
+                break;
+        }
     }
 
     private void switchToOkashi() {
@@ -118,6 +131,7 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
     }
 
 
+    /*
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -138,7 +152,7 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
         }
 
         return super.onOptionsItemSelected(item);
-    }
+    }*/
 
     @Override
     public void setSelectedFragment(BackHandledFragment backHandledFragment) {
