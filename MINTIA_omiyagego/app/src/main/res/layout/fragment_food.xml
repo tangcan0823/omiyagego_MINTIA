@@ -28,6 +28,10 @@
                 android:id="@+id/okashi1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:onClick="goDetail"
                 app:cardCornerRadius="30dp"
                 app:cardElevation="10dp"
@@ -137,76 +141,758 @@
 
                 </RelativeLayout>
 
-
-
             </android.support.v7.widget.CardView>
+
+
+
+
 
 
             <android.support.v7.widget.CardView
                 android:id="@+id/okashi2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:onClick="goDetail"
                 app:cardCornerRadius="30dp"
-                app:cardElevation="10dp">
+                app:cardElevation="10dp"
+                cardview:cardUseCompatPadding="true">
 
-                <LinearLayout
-                    style="@style/CardView.Content"
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
 
-                    <ImageView
+                    <FrameLayout
+                        android:id="@+id/frameLayout_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageView_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/food2"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/food_title_2"
+                            android:scaleType="fitXY"/>
+
+                        <LinearLayout
+                            android:id="@+id/linearView_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:background="@color/twitter"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <LinearLayout
+                                android:id="@+id/layoutButtons_2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:visibility="gone">
+
+                                <Button
+                                    style="@style/Button"
+                                    android:layout_marginBottom="16dp"
+                                    android:text="@string/duplicate" />
+
+                                <Button
+                                    style="@style/Button"
+                                    android:layout_marginBottom="16dp"
+                                    android:text="@string/schedule" />
+
+                                <Button
+                                    style="@style/Button"
+                                    android:text="@string/delete" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/textView_2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/food2" />
+                        android:layout_below="@id/frameLayout_2"
+                        android:fontFamily="sans-serif-light"
+                        android:lineSpacingExtra="4dp"
+                        android:paddingBottom="24dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="48dp"
+                        android:text="@string/food_description_2"
+                        android:textColor="@color/grey"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
 
-                    <LinearLayout
+                    <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:orientation="vertical">
+                        android:layout_below="@id/textView_2"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
 
 
-                    </LinearLayout>
+                    <ImageButton
+                        android:id="@+id/launchTwitterAnimation_2"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:layout_alignBottom="@id/frameLayout_2"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginBottom="-28dp"
+                        android:layout_marginEnd="16dp"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/rounded_button"
+                        android:contentDescription="@string/food_title_2"
+                        android:elevation="4dp"
 
-                </LinearLayout>
+                        android:src="@mipmap/twitter_logo" />
+
+                </RelativeLayout>
 
             </android.support.v7.widget.CardView>
+
+
+
+
+
+
 
             <android.support.v7.widget.CardView
                 android:id="@+id/okashi3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
                 android:onClick="goDetail"
-                app:cardCornerRadius="10dp"
-                app:cardElevation="10dp">
+                app:cardCornerRadius="30dp"
+                app:cardElevation="10dp"
+                cardview:cardUseCompatPadding="true">
 
-                <LinearLayout
-                    style="@style/CardView.Content"
+                <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
 
-                    <ImageView
+                    <FrameLayout
+                        android:id="@+id/frameLayout_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageView_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/food3"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/food_title_3"
+                            android:scaleType="fitXY"/>
+
+                        <LinearLayout
+                            android:id="@+id/linearView_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:background="@color/twitter"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <LinearLayout
+                                android:id="@+id/layoutButtons_3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:visibility="gone">
+
+                                <Button
+                                    style="@style/Button"
+                                    android:layout_marginBottom="16dp"
+                                    android:text="@string/duplicate" />
+
+                                <Button
+                                    style="@style/Button"
+                                    android:layout_marginBottom="16dp"
+                                    android:text="@string/schedule" />
+
+                                <Button
+                                    style="@style/Button"
+                                    android:text="@string/delete" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/textView_3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/food3" />
+                        android:layout_below="@id/frameLayout_3"
+                        android:fontFamily="sans-serif-light"
+                        android:lineSpacingExtra="4dp"
+                        android:paddingBottom="24dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="48dp"
+                        android:text="@string/food_description_3"
+                        android:textColor="@color/grey"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
 
-                    <LinearLayout
+                    <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:orientation="vertical">
+                        android:layout_below="@id/textView_3"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
 
 
-                    </LinearLayout>
+                    <ImageButton
+                        android:id="@+id/launchTwitterAnimation_3"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:layout_alignBottom="@id/frameLayout_3"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginBottom="-28dp"
+                        android:layout_marginEnd="16dp"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/rounded_button"
+                        android:contentDescription="@string/food_title_3"
+                        android:elevation="4dp"
 
-                </LinearLayout>
+                        android:src="@mipmap/twitter_logo" />
+
+                </RelativeLayout>
 
             </android.support.v7.widget.CardView>
+
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/okashi4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:onClick="goDetail"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="10dp"
+                cardview:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:id="@+id/frameLayout_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageView_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/food4"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/food_title_4"
+                            android:scaleType="fitXY"/>
+
+                        <LinearLayout
+                            android:id="@+id/linearView_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:background="@color/twitter"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <LinearLayout
+                                android:id="@+id/layoutButtons_4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:visibility="gone">
+
+                                <Button
+                                    style="@style/Button"
+                                    android:layout_marginBottom="16dp"
+                                    android:text="@string/duplicate" />
+
+                                <Button
+                                    style="@style/Button"
+                                    android:layout_marginBottom="16dp"
+                                    android:text="@string/schedule" />
+
+                                <Button
+                                    style="@style/Button"
+                                    android:text="@string/delete" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/textView_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/frameLayout_4"
+                        android:fontFamily="sans-serif-light"
+                        android:lineSpacingExtra="4dp"
+                        android:paddingBottom="24dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="48dp"
+                        android:text="@string/food_description_4"
+                        android:textColor="@color/grey"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textView_4"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
+
+
+                    <ImageButton
+                        android:id="@+id/launchTwitterAnimation_4"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:layout_alignBottom="@id/frameLayout_4"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginBottom="-28dp"
+                        android:layout_marginEnd="16dp"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/rounded_button"
+                        android:contentDescription="@string/food_title_4"
+                        android:elevation="4dp"
+
+                        android:src="@mipmap/twitter_logo" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/okashi5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:onClick="goDetail"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="10dp"
+                cardview:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:id="@+id/frameLayout_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageView_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/food5"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/food_title_5"
+                            android:scaleType="fitXY"/>
+
+                        <LinearLayout
+                            android:id="@+id/linearView_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:background="@color/twitter"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <LinearLayout
+                                android:id="@+id/layoutButtons_5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:visibility="gone">
+
+                                <Button
+                                    style="@style/Button"
+                                    android:layout_marginBottom="16dp"
+                                    android:text="@string/duplicate" />
+
+                                <Button
+                                    style="@style/Button"
+                                    android:layout_marginBottom="16dp"
+                                    android:text="@string/schedule" />
+
+                                <Button
+                                    style="@style/Button"
+                                    android:text="@string/delete" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/textView_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/frameLayout_5"
+                        android:fontFamily="sans-serif-light"
+                        android:lineSpacingExtra="4dp"
+                        android:paddingBottom="24dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="48dp"
+                        android:text="@string/food_description_5"
+                        android:textColor="@color/grey"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textView_5"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
+
+
+                    <ImageButton
+                        android:id="@+id/launchTwitterAnimation_5"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:layout_alignBottom="@id/frameLayout_5"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginBottom="-28dp"
+                        android:layout_marginEnd="16dp"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/rounded_button"
+                        android:contentDescription="@string/food_title_5"
+                        android:elevation="4dp"
+
+                        android:src="@mipmap/twitter_logo" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/okashi6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:onClick="goDetail"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="10dp"
+                cardview:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:id="@+id/frameLayout_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageView_6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/food6"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/food_title_6"
+                            android:scaleType="fitXY"/>
+
+                        <LinearLayout
+                            android:id="@+id/linearView_6"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:background="@color/twitter"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <LinearLayout
+                                android:id="@+id/layoutButtons_6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:visibility="gone">
+
+                                <Button
+                                    style="@style/Button"
+                                    android:layout_marginBottom="16dp"
+                                    android:text="@string/duplicate" />
+
+                                <Button
+                                    style="@style/Button"
+                                    android:layout_marginBottom="16dp"
+                                    android:text="@string/schedule" />
+
+                                <Button
+                                    style="@style/Button"
+                                    android:text="@string/delete" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/textView_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/frameLayout_6"
+                        android:fontFamily="sans-serif-light"
+                        android:lineSpacingExtra="4dp"
+                        android:paddingBottom="24dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="48dp"
+                        android:text="@string/food_description_6"
+                        android:textColor="@color/grey"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textView_6"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
+
+
+                    <ImageButton
+                        android:id="@+id/launchTwitterAnimation_6"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:layout_alignBottom="@id/frameLayout_6"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginBottom="-28dp"
+                        android:layout_marginEnd="16dp"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/rounded_button"
+                        android:contentDescription="@string/food_title_6"
+                        android:elevation="4dp"
+
+                        android:src="@mipmap/twitter_logo" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/okashi7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:onClick="goDetail"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="10dp"
+                cardview:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <FrameLayout
+                        android:id="@+id/frameLayout_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/imageView_7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/food7"
+                            android:adjustViewBounds="true"
+                            android:contentDescription="@string/food_title_7"
+                            android:scaleType="fitXY"/>
+
+                        <LinearLayout
+                            android:id="@+id/linearView_7"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:background="@color/twitter"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+                            <LinearLayout
+                                android:id="@+id/layoutButtons_7"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:orientation="vertical"
+                                android:visibility="gone">
+
+                                <Button
+                                    style="@style/Button"
+                                    android:layout_marginBottom="16dp"
+                                    android:text="@string/duplicate" />
+
+                                <Button
+                                    style="@style/Button"
+                                    android:layout_marginBottom="16dp"
+                                    android:text="@string/schedule" />
+
+                                <Button
+                                    style="@style/Button"
+                                    android:text="@string/delete" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </FrameLayout>
+
+                    <TextView
+                        android:id="@+id/textView_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/frameLayout_7"
+                        android:fontFamily="sans-serif-light"
+                        android:lineSpacingExtra="4dp"
+                        android:paddingBottom="24dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="48dp"
+                        android:text="@string/food_description_7"
+                        android:textColor="@color/grey"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textView_7"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="24dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
+
+
+                    <ImageButton
+                        android:id="@+id/launchTwitterAnimation_7"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:layout_alignBottom="@id/frameLayout_7"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginBottom="-28dp"
+                        android:layout_marginEnd="16dp"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/rounded_button"
+                        android:contentDescription="@string/food_title_7"
+                        android:elevation="4dp"
+
+                        android:src="@mipmap/twitter_logo" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
 

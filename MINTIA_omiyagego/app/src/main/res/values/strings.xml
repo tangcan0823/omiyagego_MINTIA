@@ -26,6 +26,41 @@
     <string name="food_title_3">つくばうむ</string>
     <string name="food_description_3">店舗: コート・ダジュール \n住所: つくば市東新井19-26 \n営業時間: 9:30-19:30 \n電話: 0120-58-3094 \n価格: 1250円</string>
 
+    <string name="food_title_4">つくばの青い果実のラングドシャ(10枚入り)</string>
+    <string name="food_description_4">店舗: 西武筑波店.つくばの良い品 \n住所: 茨城県つくば市 つくばクレオスクエア 吾妻１-７-１ \n営業時間: 10:00-20:00 \n電話: 029-851-0111 \n価格: 648円</string>
+
+    <string name="food_title_5">TXサブレ(10枚入り)</string>
+    <string name="food_description_5">店舗: つくばの良い品.つくばエクスプレス沿線 \n住所: 茨城県つくば市吾妻2-128 TXつくば駅構内 \n営業時間: 9:00-20:00 \n電話: 029-859-4147 \n価格: 1150円</string>
+
+    <string name="food_title_6">スペースフード</string>
+    <string name="food_description_6">店舗: UNiBO Space Center Museum Shop \n住所: 茨城県つくば市千現2-1-1 JAXA筑波宇宙センター内 \n営業時間: 10:00-17:00(平日) \n電話: 029-850-1718 \n価格: 540円</string>
+
+    <string name="food_title_7">はんじゅくちーず(5個入り)</string>
+    <string name="food_description_7">店舗: コート・ダジュール \n住所: つくば市東新井19-26 \n営業時間: 9:30-19:30 \n電話: 0120-58-3094 \n価格: 648円</string>
+
+    <string name="wine_title_1">梅香百年梅酒</string>
+    <string name="wine_description_1">店舗: 別春館 \n住所: 水戸市元吉田町3-3-8 \n営業時間: 9:00-16:30 \n電話: 029-247-6111 \n価格: 1543円</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="craft_title_1">涸沼竿</string>
+    <string name="craft_description_1">店舗: 東明工房 川上 東明 \n住所: 水戸市水府町1570-28 \n電話: 029-225-6835</string>
+
+
+
+
+
     <string name="search">捜索</string>
     <string name="input_hint">キーワードを入力してください</string>
     <string name="input_prefill"></string>

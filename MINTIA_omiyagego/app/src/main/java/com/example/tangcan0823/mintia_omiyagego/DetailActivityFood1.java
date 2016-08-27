@@ -22,7 +22,7 @@ import java.util.Scanner;
 /**
  * Created by tangcan0823 on 2016/08/26.
  */
-public class DetailActivity extends AppCompatActivity {
+public class DetailActivityFood1 extends AppCompatActivity {
 
     private ViewPager mViewPager;
 
