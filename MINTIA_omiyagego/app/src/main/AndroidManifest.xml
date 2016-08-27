@@ -2,6 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.tangcan0823.mintia_omiyagego">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Add this line if you need only READ access -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- Add this line if you need both READ/WRITE access -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -17,6 +24,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".DetailActivity"/>
+        <activity android:name=".CommentActivity"></activity>
+        <service android:name="com.kii.cloud.analytics.EventUploadService" />
 
     </application>
 
