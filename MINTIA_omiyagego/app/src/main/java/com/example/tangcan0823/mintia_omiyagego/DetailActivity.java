@@ -61,7 +61,7 @@ public class DetailActivity extends AppCompatActivity {
         MyPagerAdapter adapter = new MyPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(DetailFragment.newInstance(getAsset("food_infoData/food_info00.txt")), "詳細");
         adapter.addFragment(DetailFragment.newInstance(getAsset("food_introData/food_intro00.txt")), "紹介");
-        adapter.addFragment(DetailFragment.newInstance(""), "口コミ");
+        adapter.addFragment(DetailFragment.newInstance(""), "レビュー");
         mViewPager.setAdapter(adapter);
     }
 
