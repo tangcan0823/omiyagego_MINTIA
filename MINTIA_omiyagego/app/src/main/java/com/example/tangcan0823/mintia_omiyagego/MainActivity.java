@@ -1,5 +1,6 @@
 package com.example.tangcan0823.mintia_omiyagego;
 
+import android.net.Uri;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -11,7 +12,14 @@ import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
+
+import com.kii.cloud.storage.Kii;
+import com.kii.cloud.storage.KiiObject;
+import com.kii.cloud.storage.KiiUser;
+import com.kii.cloud.storage.callback.KiiObjectCallBack;
+import com.kii.cloud.storage.callback.KiiUserCallBack;
 
 public class MainActivity extends AppCompatActivity implements BackHandledFragment.BackHandlerInterface {
 
@@ -28,6 +36,12 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
+
+        //******************************************************:
+
+        Kii.initialize(getApplicationContext(), "62efe455", "04bcacd4b05daa322166d9a272e0ec3c", Kii.Site.JP, true);
+
+        //******************************************************
         setSupportActionBar(mToolbar);
 
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -180,6 +194,6 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
                 doExitApp();
             }
         }
-
     }
+
 }
