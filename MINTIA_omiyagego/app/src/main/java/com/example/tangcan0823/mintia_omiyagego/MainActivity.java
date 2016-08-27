@@ -80,7 +80,7 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
 
 
     private void switchToAbout() {
-        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new FoodFragment()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new MemberFragment()).commit();
         mToolbar.setTitle(R.string.navigation_about);
     }
 

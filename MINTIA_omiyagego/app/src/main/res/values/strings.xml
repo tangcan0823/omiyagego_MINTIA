@@ -7,7 +7,7 @@
     <string name="navigation_okashi">お菓子</string>
     <string name="navigation_osake">お酒</string>
     <string name="navigation_kougehin">工芸品</string>
-    <string name="navigation_about">Contact Us</string>
+    <string name="navigation_about">メンバー紹介</string>
 
 
     <string name="drawer_open">Open</string>
@@ -31,5 +31,17 @@
     <string name="input_prefill"></string>
     <string name="title_buttom_tab">Buttom Tab</string>
 
+    <string name="member_name_1">馮 晞綱</string>
+    <string name="member_Introduction_1">こんにちは．馮 晞綱です．</string>
+    <string name="member_name_2">唐 燦</string>
+    <string name="member_Introduction_2">こんにちは．唐 燦です．</string>
+    <string name="member_name_3">PU YUE</string>
+    <string name="member_Introduction_3">こんにちは．PU YUEです．</string>
+    <string name="member_name_4">ZHONG YURAN</string>
+    <string name="member_Introduction_4">こんにちは．ZHONG YURANです．</string>
+    <string name="member_name_5">安藤　顕人</string>
+    <string name="member_Introduction_5">こんにちは．安藤　顕人です．</string>
+    <string name="member_name_6">田辺　光希</string>
+    <string name="member_Introduction_6">こんにちは．田辺光希です．</string>
 
 </resources>
