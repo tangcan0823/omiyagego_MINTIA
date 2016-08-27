@@ -18,4 +18,6 @@
     <color name="google_blue">#0057e7</color>
     <color name="google_green">#008744</color>
     <color name="google_yellow">#ffa700</color>
+    <color name="twitter">#23C4FF</color>
+    <color name="grey">#BEBEBE</color>
 </resources>
