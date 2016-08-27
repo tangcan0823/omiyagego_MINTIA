@@ -8,16 +8,14 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by tangcan0823 on 2016/08/25.
+ * Created by tangcan0823 on 2016/08/27.
  */
-public class FoodFragment extends Fragment {
+public class OsakeFragment extends Fragment{
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_food, null);
+        View view = inflater.inflate(R.layout.fragment_osake, null);
         return view;
     }
-
-
 
 }

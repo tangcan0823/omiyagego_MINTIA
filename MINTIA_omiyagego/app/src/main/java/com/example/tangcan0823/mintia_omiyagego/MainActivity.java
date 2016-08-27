@@ -1,7 +1,7 @@
 package com.example.tangcan0823.mintia_omiyagego;
 
-
 import android.net.Uri;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
@@ -55,10 +55,27 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
         //profile Image
         setUpProfileImage();
 
-        //  switchToBook();
 
     }
 
+
+    public void goDetail(View view){
+        switch(view.getId()){
+            case R.id.okashi1:
+                Toast.makeText(this,"ゴールドプリン",Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(this,DetailActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.okashi2:
+                Toast.makeText(this,"キャラメルプリン",Toast.LENGTH_SHORT).show();
+                break;
+            case R.id.okashi3:
+                Toast.makeText(this,"つくばうむ",Toast.LENGTH_SHORT).show();
+                break;
+            default:
+                break;
+        }
+    }
 
     private void switchToOkashi() {
         getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new FoodFragment()).commit();
@@ -66,12 +83,12 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
     }
 
     private void switchToOsake() {
-        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new FoodFragment()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new OsakeFragment()).commit();
         mToolbar.setTitle(R.string.navigation_osake);
     }
 
     private void switchToKougehin() {
-        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new FoodFragment()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new KougehinFragment()).commit();
         mToolbar.setTitle(R.string.navigation_kougehin);
     }
 
@@ -128,6 +145,7 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
     }
 
 
+    /*
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -148,7 +166,7 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
         }
 
         return super.onOptionsItemSelected(item);
-    }
+    }*/
 
     @Override
     public void setSelectedFragment(BackHandledFragment backHandledFragment) {
