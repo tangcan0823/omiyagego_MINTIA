@@ -69,12 +69,12 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
     }
 
     private void switchToOsake() {
-        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new OsakeFragment()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new FoodFragment()).commit();
         mToolbar.setTitle(R.string.navigation_osake);
     }
 
     private void switchToKougehin() {
-        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new KougehinFragment()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new FoodFragment()).commit();
         mToolbar.setTitle(R.string.navigation_kougehin);
     }
 
