@@ -24,10 +24,11 @@ import java.util.Scanner;
  */
 public class DetailActivity extends AppCompatActivity {
 
-    private ViewPager mViewPager;
+    public ViewPager mViewPager;
+
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -39,14 +40,10 @@ public class DetailActivity extends AppCompatActivity {
                 onBackPressed();
             }
         });
-
-
         CollapsingToolbarLayout collapsingToolbar = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
-        collapsingToolbar.setTitle("ゴールドプリン");
-
+        collapsingToolbar.setTitle(" ");
         ImageView ivImage = (ImageView)findViewById(R.id.ivImage);
         ivImage.setImageResource(R.drawable.food_pic00);
-
         mViewPager = (ViewPager) findViewById(R.id.viewpager);
         setupViewPager(mViewPager);
 
@@ -57,7 +54,7 @@ public class DetailActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(mViewPager);
     }
 
-    private void setupViewPager(ViewPager mViewPager) {
+    public void setupViewPager(ViewPager mViewPager) {
         MyPagerAdapter adapter = new MyPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(DetailFragment.newInstance(getAsset("food_infoData/food_info00.txt")), "詳細");
         adapter.addFragment(DetailFragment.newInstance(getAsset("food_introData/food_intro00.txt")), "紹介");
@@ -65,7 +62,7 @@ public class DetailActivity extends AppCompatActivity {
         mViewPager.setAdapter(adapter);
     }
 
-    private String getAsset(String fileName) {
+    public String getAsset(String fileName) {
         AssetManager am = getResources().getAssets();
         InputStream is = null;
         try {
