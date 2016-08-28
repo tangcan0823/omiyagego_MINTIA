@@ -61,14 +61,14 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
 
     public void goDetail(View view) {
         switch (view.getId()) {
-            case R.id.okashi1:
+            case R.id.okashi_0:
                 Intent intent = new Intent(this, DetailActivity.class);
                 startActivity(intent);
                 break;
-            case R.id.okashi2:
+            case R.id.okashi_1:
                 Toast.makeText(this, "キャラメルプリン", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.okashi3:
+            case R.id.okashi_2:
                 Toast.makeText(this, "つくばうむ", Toast.LENGTH_SHORT).show();
                 break;
             default:
@@ -82,12 +82,12 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
     }
 
     private void switchToOsake() {
-        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new FoodFragment()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new OsakeFragment()).commit();
         mToolbar.setTitle(R.string.navigation_osake);
     }
 
     private void switchToKougehin() {
-        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new FoodFragment()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new KougehinFragment()).commit();
         mToolbar.setTitle(R.string.navigation_kougehin);
     }
 
@@ -201,10 +201,10 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
 
         pixelDensity = getResources().getDisplayMetrics().density;
 
-        imageView = (ImageView) findViewById(R.id.imageView);
-        imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation);
-        revealView = (LinearLayout) findViewById(R.id.linearView);
-        layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons);
+        imageView = (ImageView) findViewById(R.id.imageView_f0);
+        imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation_f0);
+        revealView = (LinearLayout) findViewById(R.id.linearView_f0);
+        layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons_f0);
 
         alphaAnimation = AnimationUtils.loadAnimation(this, R.anim.alpha_anim);
 

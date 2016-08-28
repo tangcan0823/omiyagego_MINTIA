@@ -45,7 +45,7 @@ public class DetailActivity extends AppCompatActivity {
         collapsingToolbar.setTitle("ゴールドプリン");
 
         ImageView ivImage = (ImageView)findViewById(R.id.ivImage);
-        ivImage.setImageResource(R.drawable.food1);
+        ivImage.setImageResource(R.drawable.food_pic00);
 
         mViewPager = (ViewPager) findViewById(R.id.viewpager);
         setupViewPager(mViewPager);
