@@ -1,5 +1,6 @@
 package com.example.tangcan0823.mintia_omiyagego;
 
+import android.animation.Animator;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -10,6 +11,13 @@ import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.ViewAnimationUtils;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
+import android.widget.FrameLayout;
+import android.widget.ImageButton;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements BackHandledFragment.BackHandlerInterface {
@@ -19,6 +27,13 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
     private Toolbar mToolbar;
     private BackHandledFragment selectedFragment;
     private NavigationView mNavigationView;
+
+    ImageView imageView;
+    ImageButton imageButton;
+    LinearLayout revealView, layoutButtons;
+    Animation alphaAnimation;
+    float pixelDensity;
+    boolean flag = true;
 
     private static final int ANIM_DURATION_TOOLBAR = 300;
 
@@ -44,18 +59,17 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
     }
 
 
-    public void goDetail(View view){
-        switch(view.getId()){
+    public void goDetail(View view) {
+        switch (view.getId()) {
             case R.id.okashi1:
-                Toast.makeText(this,"ゴールドプリン",Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(this,DetailActivity.class);
+                Intent intent = new Intent(this, DetailActivity.class);
                 startActivity(intent);
                 break;
             case R.id.okashi2:
-                Toast.makeText(this,"キャラメルプリン",Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "キャラメルプリン", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.okashi3:
-                Toast.makeText(this,"つくばうむ",Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "つくばうむ", Toast.LENGTH_SHORT).show();
                 break;
             default:
                 break;
@@ -85,7 +99,7 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
 
 
     private void setUpProfileImage() {
-        View headerView=  mNavigationView.inflateHeaderView(R.layout.navigation_header);
+        View headerView = mNavigationView.inflateHeaderView(R.layout.navigation_header);
         View profileView = headerView.findViewById(R.id.profile_image);
         if (profileView != null) {
             profileView.setOnClickListener(new View.OnClickListener() {
@@ -180,5 +194,99 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
             }
         }
 
+    }
+
+    public void launchTwitter(View view) {
+
+
+        pixelDensity = getResources().getDisplayMetrics().density;
+
+        imageView = (ImageView) findViewById(R.id.imageView);
+        imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation);
+        revealView = (LinearLayout) findViewById(R.id.linearView);
+        layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons);
+
+        alphaAnimation = AnimationUtils.loadAnimation(this, R.anim.alpha_anim);
+
+        int x = imageView.getRight();
+        int y = imageView.getBottom();
+        x -= ((28 * pixelDensity) + (16 * pixelDensity));
+
+        int hypotenuse = (int) Math.hypot(imageView.getWidth(), imageView.getHeight());
+
+        if (flag) {
+
+            imageButton.setBackgroundResource(R.drawable.rounded_cancel_button);
+            imageButton.setImageResource(R.mipmap.image_cancel);
+
+            FrameLayout.LayoutParams parameters = (FrameLayout.LayoutParams)
+                    revealView.getLayoutParams();
+            parameters.height = imageView.getHeight();
+            revealView.setLayoutParams(parameters);
+
+            Animator anim = ViewAnimationUtils.createCircularReveal(revealView, x, y, 0, hypotenuse);
+            anim.setDuration(700);
+
+            anim.addListener(new Animator.AnimatorListener() {
+                @Override
+                public void onAnimationStart(Animator animator) {
+
+                }
+
+                @Override
+                public void onAnimationEnd(Animator animator) {
+                    layoutButtons.setVisibility(View.VISIBLE);
+                    layoutButtons.startAnimation(alphaAnimation);
+                }
+
+                @Override
+                public void onAnimationCancel(Animator animator) {
+
+                }
+
+                @Override
+                public void onAnimationRepeat(Animator animator) {
+
+                }
+            });
+
+            revealView.setVisibility(View.VISIBLE);
+            anim.start();
+
+            flag = false;
+        } else {
+
+            imageButton.setBackgroundResource(R.drawable.rounded_button);
+            imageButton.setImageResource(R.mipmap.twitter_logo);
+
+            Animator anim = ViewAnimationUtils.createCircularReveal(revealView, x, y, hypotenuse, 0);
+            anim.setDuration(400);
+
+            anim.addListener(new Animator.AnimatorListener() {
+                @Override
+                public void onAnimationStart(Animator animator) {
+
+                }
+
+                @Override
+                public void onAnimationEnd(Animator animator) {
+                    revealView.setVisibility(View.GONE);
+                    layoutButtons.setVisibility(View.GONE);
+                }
+
+                @Override
+                public void onAnimationCancel(Animator animator) {
+
+                }
+
+                @Override
+                public void onAnimationRepeat(Animator animator) {
+
+                }
+            });
+
+            anim.start();
+            flag = true;
+        }
     }
 }
