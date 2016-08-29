@@ -26,6 +26,23 @@ import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_f3;
 import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_f4;
 import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_f5;
 import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_f6;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_k0;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_k1;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_k2;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_k3;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_k4;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_k5;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_k6;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_k7;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_k8;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_o0;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_o1;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_o2;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_o3;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_o4;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_o5;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_o6;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_o7;
 import com.example.tangcan0823.mintia_omiyagego.DetailActivity.DetailActivity;
 
 public class MainActivity extends AppCompatActivity implements BackHandledFragment.BackHandlerInterface {
@@ -100,6 +117,75 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
                 intent = new Intent(this, Activity_f6.class);
                 startActivity(intent);
                 break;
+            case R.id.kougeihin_0:
+                intent = new Intent(this, Activity_k0.class);
+                startActivity(intent);
+                break;
+            case R.id.kougeihin_1:
+                intent = new Intent(this, Activity_k1.class);
+                startActivity(intent);
+                break;
+            case R.id.kougeihin_2:
+                intent = new Intent(this, Activity_k2.class);
+                startActivity(intent);
+                break;
+            case R.id.kougeihin_3:
+                intent = new Intent(this, Activity_k3.class);
+                startActivity(intent);
+                break;
+            case R.id.kougeihin_4:
+                intent = new Intent(this, Activity_k4.class);
+                startActivity(intent);
+                break;
+            case R.id.kougeihin_5:
+                intent = new Intent(this, Activity_k5.class);
+                startActivity(intent);
+                break;
+            case R.id.kougeihin_6:
+                intent = new Intent(this, Activity_k6.class);
+                startActivity(intent);
+                break;
+            case R.id.kougeihin_7:
+                intent = new Intent(this, Activity_k7.class);
+                startActivity(intent);
+                break;
+            case R.id.kougeihin_8:
+                intent = new Intent(this, Activity_k8.class);
+                startActivity(intent);
+                break;
+            case R.id.osake_0:
+                intent = new Intent(this, Activity_o0.class);
+                startActivity(intent);
+                break;
+            case R.id.osake_1:
+                intent = new Intent(this, Activity_o1.class);
+                startActivity(intent);
+                break;
+            case R.id.osake_2:
+                intent = new Intent(this, Activity_o2.class);
+                startActivity(intent);
+                break;
+            case R.id.osake_3:
+                intent = new Intent(this, Activity_o3.class);
+                startActivity(intent);
+                break;
+            case R.id.osake_4:
+                intent = new Intent(this, Activity_o4.class);
+                startActivity(intent);
+                break;
+            case R.id.osake_5:
+                intent = new Intent(this, Activity_o5.class);
+                startActivity(intent);
+                break;
+            case R.id.osake_6:
+                intent = new Intent(this, Activity_o6.class);
+                startActivity(intent);
+                break;
+            case R.id.osake_7:
+                intent = new Intent(this, Activity_o7.class);
+                startActivity(intent);
+                break;
+
             default:
                 break;
         }
