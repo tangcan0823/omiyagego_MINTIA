@@ -95,7 +95,7 @@
                         android:paddingLeft="@dimen/dimen_24dp"
                         android:paddingRight="@dimen/dimen_24dp"
                         android:paddingTop="@dimen/dimen_48dp"
-                        android:text="@string/food_description_1"
+                        android:text="@string/kougeihin_description_0"
                         android:textColor="@color/grey"
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
@@ -212,7 +212,7 @@
                         android:paddingLeft="@dimen/dimen_24dp"
                         android:paddingRight="@dimen/dimen_24dp"
                         android:paddingTop="@dimen/dimen_48dp"
-                        android:text="@string/food_description_1"
+                        android:text="@string/kougeihin_description_1"
                         android:textColor="@color/grey"
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
@@ -328,7 +328,7 @@
                         android:paddingLeft="@dimen/dimen_24dp"
                         android:paddingRight="@dimen/dimen_24dp"
                         android:paddingTop="@dimen/dimen_48dp"
-                        android:text="@string/food_description_1"
+                        android:text="@string/kougeihin_description_2"
                         android:textColor="@color/grey"
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
@@ -444,7 +444,7 @@
                         android:paddingLeft="@dimen/dimen_24dp"
                         android:paddingRight="@dimen/dimen_24dp"
                         android:paddingTop="@dimen/dimen_48dp"
-                        android:text="@string/food_description_1"
+                        android:text="@string/kougeihin_description_3"
                         android:textColor="@color/grey"
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
@@ -559,7 +559,7 @@
                         android:paddingLeft="@dimen/dimen_24dp"
                         android:paddingRight="@dimen/dimen_24dp"
                         android:paddingTop="@dimen/dimen_48dp"
-                        android:text="@string/food_description_1"
+                        android:text="@string/kougeihin_description_4"
                         android:textColor="@color/grey"
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
@@ -674,7 +674,7 @@
                         android:paddingLeft="@dimen/dimen_24dp"
                         android:paddingRight="@dimen/dimen_24dp"
                         android:paddingTop="@dimen/dimen_48dp"
-                        android:text="@string/food_description_1"
+                        android:text="@string/kougeihin_description_5"
                         android:textColor="@color/grey"
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
@@ -790,7 +790,7 @@
                         android:paddingLeft="@dimen/dimen_24dp"
                         android:paddingRight="@dimen/dimen_24dp"
                         android:paddingTop="@dimen/dimen_48dp"
-                        android:text="@string/food_description_1"
+                        android:text="@string/kougeihin_description_6"
                         android:textColor="@color/grey"
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
@@ -905,7 +905,7 @@
                         android:paddingLeft="@dimen/dimen_24dp"
                         android:paddingRight="@dimen/dimen_24dp"
                         android:paddingTop="@dimen/dimen_48dp"
-                        android:text="@string/food_description_1"
+                        android:text="@string/kougeihin_description_7"
                         android:textColor="@color/grey"
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
@@ -1020,7 +1020,7 @@
                         android:paddingLeft="@dimen/dimen_24dp"
                         android:paddingRight="@dimen/dimen_24dp"
                         android:paddingTop="@dimen/dimen_48dp"
-                        android:text="@string/food_description_1"
+                        android:text="@string/kougeihin_description_8"
                         android:textColor="@color/grey"
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
@@ -1056,13 +1056,10 @@
                 </RelativeLayout>
 >>>>>>> fc859f577e080a0a8be4a19e83f91113304bb275
 
-
             </android.support.v7.widget.CardView>
 
-
-
-
         </LinearLayout>
+
     </android.support.v4.widget.NestedScrollView>
 
 </LinearLayout>

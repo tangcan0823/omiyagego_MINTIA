@@ -33,7 +33,7 @@ public class Activity_k8 extends DetailActivity {
         CollapsingToolbarLayout collapsingToolbar = (CollapsingToolbarLayout) findViewById(R.id.collapsing_toolbar);
         collapsingToolbar.setTitle(" ");
         ImageView ivImage = (ImageView) findViewById(R.id.ivImage);
-        ivImage.setImageResource(R.drawable.food_pic06);
+        ivImage.setImageResource(R.drawable.kougeihin_pic08);
         mViewPager = (ViewPager) findViewById(R.id.viewpager);
         setupViewPager(mViewPager);
         TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
@@ -43,8 +43,11 @@ public class Activity_k8 extends DetailActivity {
     @Override
     public void setupViewPager(ViewPager mViewPager) {
         MyPagerAdapter adapter = new MyPagerAdapter(getSupportFragmentManager());
+
+        adapter.addFragment(DetailFragment.newInstance(getAsset("kougeihin_introData/kougeihin_intro08.txt")), "紹介");
         adapter.addFragment(DetailRoadFragment.newInstance("", "" + (String) getText(R.string.kougeihin_search_8)), "地図");
-        adapter.addFragment(DetailFragment.newInstance(getAsset("food_infoData/food_info06.txt")), "詳細");
+        adapter.addFragment(DetailFragment.newInstance(getAsset("kougeihin_infoData/kougeihin_info08.txt")), "詳細");
+
         mViewPager.setAdapter(adapter);
     }
 

@@ -15,10 +15,10 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
+
      <include layout="@layout/fragment_food"></include>
      <include layout="@layout/fragment_osake"></include>
      <include layout="@layout/fragment_kougehin"></include>
-
 
 </LinearLayout>
 

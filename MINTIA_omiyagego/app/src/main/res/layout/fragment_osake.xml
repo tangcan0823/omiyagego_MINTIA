@@ -94,7 +94,7 @@
                         android:paddingLeft="@dimen/dimen_24dp"
                         android:paddingRight="@dimen/dimen_24dp"
                         android:paddingTop="@dimen/dimen_48dp"
-                        android:text="@string/food_description_1"
+                        android:text="@string/osake_description_0"
                         android:textColor="@color/grey"
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
@@ -209,7 +209,7 @@
                         android:paddingLeft="@dimen/dimen_24dp"
                         android:paddingRight="@dimen/dimen_24dp"
                         android:paddingTop="@dimen/dimen_48dp"
-                        android:text="@string/food_description_1"
+                        android:text="@string/osake_description_1"
                         android:textColor="@color/grey"
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
@@ -325,7 +325,7 @@
                         android:paddingLeft="@dimen/dimen_24dp"
                         android:paddingRight="@dimen/dimen_24dp"
                         android:paddingTop="@dimen/dimen_48dp"
-                        android:text="@string/food_description_1"
+                        android:text="@string/osake_description_2"
                         android:textColor="@color/grey"
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
@@ -440,7 +440,7 @@
                         android:paddingLeft="@dimen/dimen_24dp"
                         android:paddingRight="@dimen/dimen_24dp"
                         android:paddingTop="@dimen/dimen_48dp"
-                        android:text="@string/food_description_1"
+                        android:text="@string/osake_description_3"
                         android:textColor="@color/grey"
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
@@ -556,7 +556,7 @@
                         android:paddingLeft="@dimen/dimen_24dp"
                         android:paddingRight="@dimen/dimen_24dp"
                         android:paddingTop="@dimen/dimen_48dp"
-                        android:text="@string/food_description_1"
+                        android:text="@string/osake_description_4"
                         android:textColor="@color/grey"
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
@@ -671,7 +671,7 @@
                         android:paddingLeft="@dimen/dimen_24dp"
                         android:paddingRight="@dimen/dimen_24dp"
                         android:paddingTop="@dimen/dimen_48dp"
-                        android:text="@string/food_description_1"
+                        android:text="@string/osake_description_5"
                         android:textColor="@color/grey"
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
@@ -786,7 +786,7 @@
                         android:paddingLeft="@dimen/dimen_24dp"
                         android:paddingRight="@dimen/dimen_24dp"
                         android:paddingTop="@dimen/dimen_48dp"
-                        android:text="@string/food_description_1"
+                        android:text="@string/osake_description_6"
                         android:textColor="@color/grey"
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
@@ -902,7 +902,7 @@
                         android:paddingLeft="@dimen/dimen_24dp"
                         android:paddingRight="@dimen/dimen_24dp"
                         android:paddingTop="@dimen/dimen_48dp"
-                        android:text="@string/food_description_1"
+                        android:text="@string/osake_description_7"
                         android:textColor="@color/grey"
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
