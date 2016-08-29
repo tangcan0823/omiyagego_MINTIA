@@ -56,8 +56,13 @@
             android:id="@+id/sliding_tabs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+
             app:tabGravity="fill"
-            app:tabMode="fixed" />
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@android:color/holo_orange_light"
+            app:tabTextColor="@color/divider"
+            app:tabIndicatorColor="@android:color/holo_orange_light"
+            app:tabTextAppearance="@android:style/TextAppearance.Holo.Large" />
 
         <android.support.v4.view.ViewPager
             android:id="@+id/viewpager"
@@ -75,7 +80,7 @@
         android:layout_gravity="bottom|right"
         android:layout_marginBottom="@dimen/btn_fab_margins"
         android:layout_marginRight="@dimen/btn_fab_margins"
-        android:src="@drawable/ic_find_in_page_white"
+        android:src="@drawable/ic_comment"
         app:borderWidth="0dp"
         app:elevation="6dp"
         app:pressedTranslationZ="12dp" />
