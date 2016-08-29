@@ -1,4 +1,4 @@
-<resources>
+﻿<resources>
     <string name="app_name">MINTIA</string>
 
     <string name="action_settings">Settings</string>
@@ -15,16 +15,33 @@
     <string name="press_again_exit_app">もう一度押すとアプリを落とす</string>
 
 
-    <string name="food_title_1">ゴールドプリン(5個入り)</string>
-    <string name="food_description_1">店舗: つくばプリン ふじ屋 \n住所: 茨城県桜川市真壁町飯塚113-1 \n営業時間: 10:00-19:00 \n電話: 0296-54-2401 \n価格: 1940円</string>
+    <string name="food_description_0">商品名: ゴールドプリン(5個入り) \n店舗: つくばプリン ふじ屋 \n住所: 茨城県桜川市真壁町飯塚113-1 \n営業時間: 10:00-19:00 \n電話: 0296-54-2401 \n価格: 1940円</string>
+    <string name="food_description_1">商品名: キャラメルプリン(5個入り) \n店舗: つくば陣屋 \n住所: 茨城県つくば市学園の森 \n営業時間: 110:00-18:00 \n電話: 029-879-9101 \n価格: 2260円</string>
+    <string name="food_description_2">商品名: つくばうむ \n店舗: コート・ダジュール \n住所: つくば市東新井19-26 \n営業時間: 9:30-19:30 \n電話: 0120-58-3094 \n価格: 1250円</string>
+    <string name="food_description_3">商品名: TXサブレ(10枚入り) \n店舗: つくばの良い品 \n住所: 茨城県つくば市吾妻2-128 TXつくば駅構内 \n営業時間: 10:00-20:00  \n電話: 029-859-4147 \n価格: 1150円</string>
+    <string name="food_description_4">商品名: スペースフード \n店舗: UNiBO Space Center Museum Shop \n住所: 茨城県つくば市千現2-1-1 JAXA筑波宇宙センター内 \n営業時間: 10:00-17:00 \n電話: 029-850-1718 \n価格: 540円</string>
+    <string name="food_description_5">商品名: はんじゅくちーず(5個入り) \n店舗: コート・ダジュール \n住所: つくば市東新井19-26 \n営業時間: 9:30-19:30  \n電話: 0120-58-3094 \n価格: 648円</string>
+    <string name="food_description_6">商品名: つくばの青い果実のラングドシャ(10枚入り) \n店舗: つくばの良い品 \n住所: 茨城県つくば市吾妻2-128 TXつくば駅構内 \n営業時間: 10:00-20:00  \n電話: 029-859-4147 \n価格: 648円</string>
 
+    <string name="osake_description_0">商品名: 梅香百年梅酒 \n店舗: 別春館 \n住所: 水戸市元吉田町338 \n営業時間: 9:30-16:30 \n電話: 029-247-6111 \n価格: 1543円</string>
+    <string name="osake_description_1">商品名: 葡萄の城 \n店舗: シャトーカミヤ \n住所: 牛久市中央3-20-1 \n営業時間: 10:00-18:00 \n電話: 029-874-9895 \n価格: 1210円</string>
+    <string name="osake_description_2">商品名: 筑波山の梅酒 \n店舗: 稲葉酒造 \n住所: つくば市沼田1485 \n営業時間: 9:30-18:00 \n電話: 029-866-0020 \n価格: 810円</string>
+    <string name="osake_description_3">商品名: 紅ひぬま \n店舗: 明利酒類株式会社 \n住所: 茨城県水戸市元吉田町339番地 \n営業時間: 9:30-18:30 \n電話: 029-247-6112 \n価格: 2880円</string>
+    <string name="osake_description_4">商品名: 男女川 \n店舗: 稲葉酒造 \n住所: つくば市沼田1485 \n営業時間: 9:00-18:00 \n電話: 029-866-0020 \n価格: 3000円</string>
+    <string name="osake_description_5">商品名: 副将軍 \n店舗: 明利酒類株式会社 \n住所: 茨城県水戸市元吉田町338番地 \n営業時間: 9:30-17:30   \n電話: 029-247-6111 \n価格: 1050円</string>
+    <string name="osake_description_6">商品名: 男女川 \n店舗: 稲葉酒造 \n住所: つくば市沼田1485 \n営業時間: 9:00-18:00 \n電話: 029-866-0020 \n価格: 5500円</string>
+    <string name="osake_description_7">商品名: 知可良 \n店舗: つくばヤーコン \n住所: つくば市吉沼4895 \n営業時間: 9:30-16:30 \n電話: 029-865-0560 \n価格: 1543円</string>
 
-    <string name="food_title_2">キャラメルプリン(5個入り)</string>
-    <string name="food_description_2">店舗: つくば陣屋 \n住所: 茨城県つくば市学園の森 \n営業時間: 110:00-18:00 \n電話: 029-879-9101 \n価格: 2260円</string>
+    <string name="kougeihin_description_0">商品名: つくばね焼 \n店舗: 梅田八主森 \n住所: つくば市沼田1700-8  \n営業時間: 不明 \n電話: 029-866-2688  \n価格: 不明</string>
+    <string name="kougeihin_description_1">商品名: 笠間焼 \n店舗: 笠間焼協同組合 \n住所: 笠間市笠間2481-5  \n営業時間: 不明 \n電話: 0296-73-0058 \n価格: 不明</string>
+    <string name="kougeihin_description_2">商品名: 栗野春慶塗 \n店舗: なし(直接注文のみ) \n住所: 城里町粟458 \n営業時間: 不明 \n電話: 029-289-3346 \n価格: 長盆 4700円から,弁当箱 5000円から,汁椀 3400円から,茶托 1200円から</string>
+    <string name="kougeihin_description_3">商品名: 結城桐箪笥 \n店舗: 堀江桐タンス店 堀江俊作 \n住所: 結城市結城1645 \n営業時間: 不明 \n電話: 0296-33-2063 \n価格: 不明</string>
+    <string name="kougeihin_description_4">商品名: 結城地方の桐下駄 \n店舗: 猪ノ原木工所 猪ノ原 昭廣 \n住所: 筑西市関本上345 \n営業時間: 不明 \n電話: 0296-37-6108 \n価格: 不明</string>
+    <string name="kougeihin_description_5">商品名: 五浦天心焼 \n店舗: 天心焼研究会 \n住所: 北茨木市平潟町897 \n営業時間: 不明 \n電話: 0293-46-8730 \n価格: 不明</string>
+    <string name="kougeihin_description_6">商品名: 水府提灯 \n店舗: 株式会社 青野商店 \n住所: 水戸市新荘1-5-50 \n営業時間: 不明 \n電話: 029-221-2491 \n価格: 不明</string>
+    <string name="kougeihin_description_7">商品名: 雪村うちわ \n店舗: 枡儀団扇店 圷 總子 \n住所: 常陸太田市塙町2274 \n営業時間: 不明 \n電話: 0294-72-7159 \n価格: 不明</string>
+    <string name="kougeihin_description_8">商品名: 涸沼竿 \n店舗: 東明工房 川上 東明 \n住所: 水戸市水府町1570-28 \n営業時間: 不明 \n電話: 029-225-6835 \n価格: 不明</string>
 
-
-    <string name="food_title_3">つくばうむ</string>
-    <string name="food_description_3">店舗: コート・ダジュール \n住所: つくば市東新井19-26 \n営業時間: 9:30-19:30 \n電話: 0120-58-3094 \n価格: 1250円</string>
 
     <string name="search">捜索</string>
     <string name="input_hint">キーワードを入力してください</string>
