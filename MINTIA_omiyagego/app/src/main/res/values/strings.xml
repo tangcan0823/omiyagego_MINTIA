@@ -31,9 +31,10 @@
     <string name="input_prefill"></string>
     <string name="title_buttom_tab">Buttom Tab</string>
 
-    <string name="duplicate">DUPLICATE</string>
-    <string name="schedule">SCHEDULE</string>
-    <string name="delete">DELETE</string>
+    <string name="duplicate">SHARE</string>
+    <string name="schedule">SAVE</string>
+    <string name="delete">IGNORE</string>
+    <string name="italic">Wednesday 31 AUG.</string>
 
 
 

@@ -16,7 +16,30 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DetailActivity"/>
+        <activity android:name=".DetailActivity.DetailActivity"/>
+        <activity android:name=".DetailActivity.Activity_f1"/>
+        <activity android:name=".DetailActivity.Activity_f2"/>
+        <activity android:name=".DetailActivity.Activity_f3"/>
+        <activity android:name=".DetailActivity.Activity_f4"/>
+        <activity android:name=".DetailActivity.Activity_f5"/>
+        <activity android:name=".DetailActivity.Activity_f6"/>
+        <activity android:name=".DetailActivity.Activity_k0"/>
+        <activity android:name=".DetailActivity.Activity_k1"/>
+        <activity android:name=".DetailActivity.Activity_k2"/>
+        <activity android:name=".DetailActivity.Activity_k3"/>
+        <activity android:name=".DetailActivity.Activity_k4"/>
+        <activity android:name=".DetailActivity.Activity_k5"/>
+        <activity android:name=".DetailActivity.Activity_k6"/>
+        <activity android:name=".DetailActivity.Activity_k7"/>
+        <activity android:name=".DetailActivity.Activity_k8"/>
+        <activity android:name=".DetailActivity.Activity_o0"/>
+        <activity android:name=".DetailActivity.Activity_o1"/>
+        <activity android:name=".DetailActivity.Activity_o2"/>
+        <activity android:name=".DetailActivity.Activity_o3"/>
+        <activity android:name=".DetailActivity.Activity_o4"/>
+        <activity android:name=".DetailActivity.Activity_o5"/>
+        <activity android:name=".DetailActivity.Activity_o6"/>
+        <activity android:name=".DetailActivity.Activity_o7"/>
 
     </application>
 

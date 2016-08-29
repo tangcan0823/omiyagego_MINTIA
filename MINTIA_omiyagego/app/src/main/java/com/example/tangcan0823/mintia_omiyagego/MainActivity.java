@@ -20,6 +20,31 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_f1;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_f2;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_f3;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_f4;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_f5;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_f6;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_k0;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_k1;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_k2;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_k3;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_k4;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_k5;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_k6;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_k7;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_k8;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_o0;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_o1;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_o2;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_o3;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_o4;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_o5;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_o6;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_o7;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.DetailActivity;
+
 public class MainActivity extends AppCompatActivity implements BackHandledFragment.BackHandlerInterface {
 
     private DrawerLayout mDrawerLayout;
@@ -55,25 +80,120 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
         //profile Image
         setUpProfileImage();
 
+        switchToMain();
+
 
     }
 
 
     public void goDetail(View view) {
+        Intent intent;
         switch (view.getId()) {
-            case R.id.okashi1:
-                Intent intent = new Intent(this, DetailActivity.class);
+            case R.id.okashi_0:
+                intent = new Intent(this, DetailActivity.class);
                 startActivity(intent);
                 break;
-            case R.id.okashi2:
-                Toast.makeText(this, "キャラメルプリン", Toast.LENGTH_SHORT).show();
+            case R.id.okashi_1:
+                intent = new Intent(this, Activity_f1.class);
+                startActivity(intent);
                 break;
-            case R.id.okashi3:
-                Toast.makeText(this, "つくばうむ", Toast.LENGTH_SHORT).show();
+            case R.id.okashi_2:
+                intent = new Intent(this, Activity_f2.class);
+                startActivity(intent);
                 break;
+            case R.id.okashi_3:
+                intent = new Intent(this, Activity_f3.class);
+                startActivity(intent);
+                break;
+            case R.id.okashi_4:
+                intent = new Intent(this, Activity_f4.class);
+                startActivity(intent);
+                break;
+            case R.id.okashi_5:
+                intent = new Intent(this, Activity_f5.class);
+                startActivity(intent);
+                break;
+            case R.id.okashi_6:
+                intent = new Intent(this, Activity_f6.class);
+                startActivity(intent);
+                break;
+            case R.id.kougeihin_0:
+                intent = new Intent(this, Activity_k0.class);
+                startActivity(intent);
+                break;
+            case R.id.kougeihin_1:
+                intent = new Intent(this, Activity_k1.class);
+                startActivity(intent);
+                break;
+            case R.id.kougeihin_2:
+                intent = new Intent(this, Activity_k2.class);
+                startActivity(intent);
+                break;
+            case R.id.kougeihin_3:
+                intent = new Intent(this, Activity_k3.class);
+                startActivity(intent);
+                break;
+            case R.id.kougeihin_4:
+                intent = new Intent(this, Activity_k4.class);
+                startActivity(intent);
+                break;
+            case R.id.kougeihin_5:
+                intent = new Intent(this, Activity_k5.class);
+                startActivity(intent);
+                break;
+            case R.id.kougeihin_6:
+                intent = new Intent(this, Activity_k6.class);
+                startActivity(intent);
+                break;
+            case R.id.kougeihin_7:
+                intent = new Intent(this, Activity_k7.class);
+                startActivity(intent);
+                break;
+            case R.id.kougeihin_8:
+                intent = new Intent(this, Activity_k8.class);
+                startActivity(intent);
+                break;
+            case R.id.osake_0:
+                intent = new Intent(this, Activity_o0.class);
+                startActivity(intent);
+                break;
+            case R.id.osake_1:
+                intent = new Intent(this, Activity_o1.class);
+                startActivity(intent);
+                break;
+            case R.id.osake_2:
+                intent = new Intent(this, Activity_o2.class);
+                startActivity(intent);
+                break;
+            case R.id.osake_3:
+                intent = new Intent(this, Activity_o3.class);
+                startActivity(intent);
+                break;
+            case R.id.osake_4:
+                intent = new Intent(this, Activity_o4.class);
+                startActivity(intent);
+                break;
+            case R.id.osake_5:
+                intent = new Intent(this, Activity_o5.class);
+                startActivity(intent);
+                break;
+            case R.id.osake_6:
+                intent = new Intent(this, Activity_o6.class);
+                startActivity(intent);
+                break;
+            case R.id.osake_7:
+                intent = new Intent(this, Activity_o7.class);
+                startActivity(intent);
+                break;
+
             default:
                 break;
         }
+    }
+
+    private void switchToMain() {
+        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new MainFragment()).commit();
+        mToolbar.setTitle(R.string.app_name);
     }
 
     private void switchToOkashi() {
@@ -82,12 +202,12 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
     }
 
     private void switchToOsake() {
-        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new FoodFragment()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new OsakeFragment()).commit();
         mToolbar.setTitle(R.string.navigation_osake);
     }
 
     private void switchToKougehin() {
-        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new FoodFragment()).commit();
+        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new KougehinFragment()).commit();
         mToolbar.setTitle(R.string.navigation_kougehin);
     }
 
@@ -105,7 +225,7 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
             profileView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    switchToOkashi();
+                    switchToMain();
                     mDrawerLayout.closeDrawers();
                     mNavigationView.getMenu().getItem(1).setChecked(true);
                 }
@@ -196,16 +316,13 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
 
     }
 
+
+
+
     public void launchTwitter(View view) {
 
 
         pixelDensity = getResources().getDisplayMetrics().density;
-
-        imageView = (ImageView) findViewById(R.id.imageView);
-        imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation);
-        revealView = (LinearLayout) findViewById(R.id.linearView);
-        layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons);
-
         alphaAnimation = AnimationUtils.loadAnimation(this, R.anim.alpha_anim);
 
         int x = imageView.getRight();
@@ -288,5 +405,184 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
             anim.start();
             flag = true;
         }
+    }
+
+    public void Animation(View view){
+
+        switch (view.getId()){
+            case R.id.launchTwitterAnimation_f0:
+                imageView = (ImageView) findViewById(R.id.imageView_f0);
+                imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation_f0);
+                revealView = (LinearLayout) findViewById(R.id.linearView_f0);
+                layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons_f0);
+                launchTwitter(view);
+                break;
+            case R.id.launchTwitterAnimation_f1:
+                imageView = (ImageView) findViewById(R.id.imageView_f1);
+                imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation_f1);
+                revealView = (LinearLayout) findViewById(R.id.linearView_f1);
+                layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons_f1);
+                launchTwitter(view);
+                break;
+            case R.id.launchTwitterAnimation_f2:
+                imageView = (ImageView) findViewById(R.id.imageView_f2);
+                imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation_f2);
+                revealView = (LinearLayout) findViewById(R.id.linearView_f2);
+                layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons_f2);
+                launchTwitter(view);
+                break;
+            case R.id.launchTwitterAnimation_f3:
+                imageView = (ImageView) findViewById(R.id.imageView_f3);
+                imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation_f3);
+                revealView = (LinearLayout) findViewById(R.id.linearView_f3);
+                layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons_f3);
+                launchTwitter(view);
+                break;
+            case R.id.launchTwitterAnimation_f4:
+                imageView = (ImageView) findViewById(R.id.imageView_f4);
+                imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation_f4);
+                revealView = (LinearLayout) findViewById(R.id.linearView_f4);
+                layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons_f4);
+                launchTwitter(view);
+                break;
+            case R.id.launchTwitterAnimation_f5:
+                imageView = (ImageView) findViewById(R.id.imageView_f5);
+                imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation_f5);
+                revealView = (LinearLayout) findViewById(R.id.linearView_f5);
+                layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons_f5);
+                launchTwitter(view);
+                break;
+            case R.id.launchTwitterAnimation_f6:
+                imageView = (ImageView) findViewById(R.id.imageView_f6);
+                imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation_f6);
+                revealView = (LinearLayout) findViewById(R.id.linearView_f6);
+                layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons_f6);
+                launchTwitter(view);
+                break;
+            case R.id.launchTwitterAnimation_o0:
+                imageView = (ImageView) findViewById(R.id.imageView_o0);
+                imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation_o0);
+                revealView = (LinearLayout) findViewById(R.id.linearView_o0);
+                layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons_o0);
+                launchTwitter(view);
+                break;
+            case R.id.launchTwitterAnimation_o1:
+                imageView = (ImageView) findViewById(R.id.imageView_o1);
+                imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation_o1);
+                revealView = (LinearLayout) findViewById(R.id.linearView_o1);
+                layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons_o1);
+                launchTwitter(view);
+                break;
+            case R.id.launchTwitterAnimation_o2:
+                imageView = (ImageView) findViewById(R.id.imageView_o2);
+                imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation_o2);
+                revealView = (LinearLayout) findViewById(R.id.linearView_o2);
+                layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons_o2);
+                launchTwitter(view);
+                break;
+            case R.id.launchTwitterAnimation_o3:
+                imageView = (ImageView) findViewById(R.id.imageView_o3);
+                imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation_o3);
+                revealView = (LinearLayout) findViewById(R.id.linearView_o3);
+                layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons_o3);
+                launchTwitter(view);
+                break;
+            case R.id.launchTwitterAnimation_o4:
+                imageView = (ImageView) findViewById(R.id.imageView_o4);
+                imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation_o4);
+                revealView = (LinearLayout) findViewById(R.id.linearView_o4);
+                layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons_o4);
+                launchTwitter(view);
+                break;
+            case R.id.launchTwitterAnimation_o5:
+                imageView = (ImageView) findViewById(R.id.imageView_o5);
+                imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation_o5);
+                revealView = (LinearLayout) findViewById(R.id.linearView_o5);
+                layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons_o5);
+                launchTwitter(view);
+                break;
+            case R.id.launchTwitterAnimation_o6:
+                imageView = (ImageView) findViewById(R.id.imageView_o6);
+                imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation_o6);
+                revealView = (LinearLayout) findViewById(R.id.linearView_o6);
+                layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons_o6);
+                launchTwitter(view);
+                break;
+            case R.id.launchTwitterAnimation_o7:
+                imageView = (ImageView) findViewById(R.id.imageView_o7);
+                imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation_o7);
+                revealView = (LinearLayout) findViewById(R.id.linearView_o7);
+                layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons_o7);
+                launchTwitter(view);
+                break;
+            case R.id.launchTwitterAnimation_k0:
+                imageView = (ImageView) findViewById(R.id.imageView_k0);
+                imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation_k0);
+                revealView = (LinearLayout) findViewById(R.id.linearView_k0);
+                layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons_k0);
+                launchTwitter(view);
+                break;
+            case R.id.launchTwitterAnimation_k1:
+                imageView = (ImageView) findViewById(R.id.imageView_k1);
+                imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation_k1);
+                revealView = (LinearLayout) findViewById(R.id.linearView_k1);
+                layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons_k1);
+                launchTwitter(view);
+                break;
+            case R.id.launchTwitterAnimation_k2:
+                imageView = (ImageView) findViewById(R.id.imageView_k2);
+                imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation_k2);
+                revealView = (LinearLayout) findViewById(R.id.linearView_k2);
+                layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons_k2);
+                launchTwitter(view);
+                break;
+            case R.id.launchTwitterAnimation_k3:
+                imageView = (ImageView) findViewById(R.id.imageView_k3);
+                imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation_k3);
+                revealView = (LinearLayout) findViewById(R.id.linearView_k3);
+                layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons_k3);
+                launchTwitter(view);
+                break;
+            case R.id.launchTwitterAnimation_k4:
+                imageView = (ImageView) findViewById(R.id.imageView_k4);
+                imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation_k4);
+                revealView = (LinearLayout) findViewById(R.id.linearView_k4);
+                layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons_k4);
+                launchTwitter(view);
+                break;
+            case R.id.launchTwitterAnimation_k5:
+                imageView = (ImageView) findViewById(R.id.imageView_k5);
+                imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation_k5);
+                revealView = (LinearLayout) findViewById(R.id.linearView_k5);
+                layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons_k5);
+                launchTwitter(view);
+                break;
+            case R.id.launchTwitterAnimation_k6:
+                imageView = (ImageView) findViewById(R.id.imageView_k6);
+                imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation_k6);
+                revealView = (LinearLayout) findViewById(R.id.linearView_k6);
+                layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons_k6);
+                launchTwitter(view);
+                break;
+            case R.id.launchTwitterAnimation_k7:
+                imageView = (ImageView) findViewById(R.id.imageView_k7);
+                imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation_k7);
+                revealView = (LinearLayout) findViewById(R.id.linearView_k7);
+                layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons_k7);
+                launchTwitter(view);
+                break;
+            case R.id.launchTwitterAnimation_k8:
+                imageView = (ImageView) findViewById(R.id.imageView_k8);
+                imageButton = (ImageButton) findViewById(R.id.launchTwitterAnimation_k8);
+                revealView = (LinearLayout) findViewById(R.id.linearView_k8);
+                layoutButtons = (LinearLayout) findViewById(R.id.layoutButtons_k8);
+                launchTwitter(view);
+                break;
+
+            default:
+                break;
+
+        }
+
     }
 }
