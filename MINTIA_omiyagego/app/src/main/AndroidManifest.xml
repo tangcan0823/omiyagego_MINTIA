@@ -16,7 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DetailActivity"/>
+        <activity android:name=".DetailActivity.DetailActivity"/>
+        <activity android:name=".DetailActivity.Activity_f1"/>
+        <activity android:name=".DetailActivity.Activity_f2"/>
+        <activity android:name=".DetailActivity.Activity_f3"/>
+        <activity android:name=".DetailActivity.Activity_f4"/>
+        <activity android:name=".DetailActivity.Activity_f5"/>
+        <activity android:name=".DetailActivity.Activity_f6"/>
 
     </application>
 
