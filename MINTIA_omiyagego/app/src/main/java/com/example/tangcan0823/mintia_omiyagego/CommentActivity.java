@@ -27,7 +27,7 @@ import java.util.Iterator;
  * Created by shikou on 2016/08/27.
  */
 public class CommentActivity extends AppCompatActivity {
-    private String goods_id = "food01_comment_object";
+    private String goods_id;
     private String[] mStringTimeList;
     private String[] mStringCommentList;
     private int Number = 0;
@@ -53,6 +53,9 @@ public class CommentActivity extends AppCompatActivity {
 
         mListViewEventList = (ListView)findViewById(R.id.listView_comment_list);
         mEventListAdapter = new ArrayAdapter<String>(getApplicationContext(), R.layout.custom_text_list_item);
+
+        Bundle bundle = this.getIntent().getExtras();
+        goods_id = bundle.getString("GOODS_ID");
 
         final KiiObject comment_list_object = KiiObject.createByUri(Uri.parse(
                 "kiicloud://buckets/goods_comment_buckets/objects/" + goods_id));

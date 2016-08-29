@@ -18,6 +18,7 @@ import com.example.tangcan0823.mintia_omiyagego.R;
  * Created by tangcan0823 on 2016/08/29.
  */
 public class Activity_f1 extends DetailActivity {
+    private String goods_id = "food01_comment_object";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,7 +46,10 @@ public class Activity_f1 extends DetailActivity {
         mFabButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Bundle bundle = new Bundle();
+                bundle.putString("GOODS_ID", goods_id);
                 Intent intent = new Intent(getApplicationContext(), CommentActivity.class);
+                intent.putExtras(bundle);
                 startActivity(intent);
             }
         });
