@@ -667,9 +667,6 @@
                         android:id="@+id/textView_k5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-<<<<<<< HEAD
-                        android:src="@drawable/food1" />
-=======
                         android:layout_below="@id/frameLayout_k5"
                         android:fontFamily="sans-serif-light"
                         android:lineSpacingExtra="@dimen/dimen_4dp"
@@ -681,7 +678,7 @@
                         android:textColor="@color/grey"
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
->>>>>>> fc859f577e080a0a8be4a19e83f91113304bb275
+
 
                     <TextView
                         android:layout_width="match_parent"
@@ -740,15 +737,9 @@
                             android:id="@+id/imageView_k6"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-<<<<<<< HEAD
-                            android:text="aaa"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                            android:textColor="@color/primary_text" />
-=======
                             android:adjustViewBounds="true"
                             android:scaleType="fitXY"
                             android:src="@drawable/kougeihin_pic06"/>
->>>>>>> fc859f577e080a0a8be4a19e83f91113304bb275
 
                         <LinearLayout
                             android:id="@+id/linearView_k6"
@@ -861,12 +852,6 @@
                             android:id="@+id/imageView_k7"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-<<<<<<< HEAD
-                            android:layout_marginTop="2dp"
-                            android:text="aaaa"
-                            android:textColor="@color/secondary_text" />
-                    </LinearLayout>
-=======
                             android:adjustViewBounds="true"
                             android:scaleType="fitXY"
                             android:src="@drawable/kougeihin_pic07"/>

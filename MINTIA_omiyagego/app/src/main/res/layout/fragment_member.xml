@@ -39,7 +39,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/food1" />
+                        android:src="@drawable/food_pic00" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -84,7 +84,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/food1" />
+                        android:src="@drawable/food_pic00" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -129,7 +129,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/food1" />
+                        android:src="@drawable/food_pic00" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -174,7 +174,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/food1" />
+                        android:src="@drawable/food_pic00" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -219,7 +219,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/food1" />
+                        android:src="@drawable/food_pic00" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -264,7 +264,7 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/food1" />
+                        android:src="@drawable/food_pic00" />
 
                     <LinearLayout
                         android:layout_width="match_parent"

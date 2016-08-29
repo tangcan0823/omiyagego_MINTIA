@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.example.tangcan0823.mintia_omiyagego.DetailFragment;
+import com.example.tangcan0823.mintia_omiyagego.DetailRoadFragment;
 import com.example.tangcan0823.mintia_omiyagego.R;
 
 /**
@@ -43,7 +44,7 @@ public class Activity_f3 extends DetailActivity {
     public void setupViewPager(ViewPager mViewPager) {
         MyPagerAdapter adapter = new MyPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(DetailFragment.newInstance(getAsset("food_introData/food_intro03.txt")), "紹介");
-        adapter.addFragment(DetailFragment.newInstance(""), "経路");
+        adapter.addFragment(DetailRoadFragment.newInstance("", "" + (String) getText(R.string.food_search_3)), "地図");
         adapter.addFragment(DetailFragment.newInstance(getAsset("food_infoData/food_info03.txt")), "詳細");
         mViewPager.setAdapter(adapter);
     }

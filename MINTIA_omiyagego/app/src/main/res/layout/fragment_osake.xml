@@ -202,9 +202,6 @@
                         android:id="@+id/textView_o1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-<<<<<<< HEAD
-                        android:src="@drawable/osake_00" />
-=======
                         android:layout_below="@id/frameLayout_o1"
                         android:fontFamily="sans-serif-light"
                         android:lineSpacingExtra="@dimen/dimen_4dp"
@@ -216,7 +213,6 @@
                         android:textColor="@color/grey"
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
->>>>>>> fc859f577e080a0a8be4a19e83f91113304bb275
 
                     <TextView
                         android:layout_width="match_parent"
@@ -276,15 +272,9 @@
                             android:id="@+id/imageView_o2"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-<<<<<<< HEAD
-                            android:text="aaa"
-                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
-                            android:textColor="@color/primary_text" />
-=======
                             android:adjustViewBounds="true"
                             android:scaleType="fitXY"
                             android:src="@drawable/osake_02" />
->>>>>>> fc859f577e080a0a8be4a19e83f91113304bb275
 
                         <LinearLayout
                             android:id="@+id/linearView_o2"
@@ -397,12 +387,6 @@
                             android:id="@+id/imageView_o3"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-<<<<<<< HEAD
-                            android:layout_marginTop="2dp"
-                            android:text="aaa"
-                            android:textColor="@color/secondary_text" />
-                    </LinearLayout>
-=======
                             android:adjustViewBounds="true"
                             android:scaleType="fitXY"
                             android:src="@drawable/osake_03" />
