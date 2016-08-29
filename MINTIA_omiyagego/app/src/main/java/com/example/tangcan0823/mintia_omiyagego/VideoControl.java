@@ -50,7 +50,7 @@ public class VideoControl extends AppCompatActivity {
             Looper.prepare();
             handler1 = new Handler(){
                 public void handleMessage(android.os.Message msg) {    //if Thread1 get the message from Thread2
-                    SystemClock.sleep(17000);
+                    SystemClock.sleep(18000);
                     Intent intent = new Intent(getApplicationContext(),MainControl.class);//open the page
                     startActivity(intent);
                 };
