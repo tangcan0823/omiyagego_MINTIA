@@ -1,13 +1,16 @@
 package com.example.tangcan0823.mintia_omiyagego.DetailActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageView;
 
+import com.example.tangcan0823.mintia_omiyagego.CommentActivity;
 import com.example.tangcan0823.mintia_omiyagego.DetailFragment;
 import com.example.tangcan0823.mintia_omiyagego.DetailRoadFragment;
 import com.example.tangcan0823.mintia_omiyagego.R;
@@ -16,6 +19,7 @@ import com.example.tangcan0823.mintia_omiyagego.R;
  * Created by tangcan0823 on 2016/08/29.
  */
 public class Activity_f4 extends DetailActivity {
+    private String goods_id = "food04_comment_object";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +42,18 @@ public class Activity_f4 extends DetailActivity {
         setupViewPager(mViewPager);
         TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
         tabLayout.setupWithViewPager(mViewPager);
+
+        mFabButton = (FloatingActionButton)findViewById(R.id.fab_normal);
+        mFabButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Bundle bundle = new Bundle();
+                bundle.putString("GOODS_ID", goods_id);
+                Intent intent = new Intent(getApplicationContext(), CommentActivity.class);
+                intent.putExtras(bundle);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override

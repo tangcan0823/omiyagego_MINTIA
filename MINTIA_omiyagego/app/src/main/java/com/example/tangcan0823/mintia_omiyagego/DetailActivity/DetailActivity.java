@@ -32,6 +32,7 @@ import java.util.Scanner;
 public class DetailActivity extends AppCompatActivity {
 
     ViewPager mViewPager;
+    private String goods_id = "food00_comment_object";
     public FloatingActionButton mFabButton;
     @Override
      protected void onCreate(Bundle savedInstanceState) {
@@ -59,7 +60,10 @@ public class DetailActivity extends AppCompatActivity {
         mFabButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Bundle bundle = new Bundle();
+                bundle.putString("GOODS_ID", goods_id);
                 Intent intent = new Intent(getApplicationContext(), CommentActivity.class);
+                intent.putExtras(bundle);
                 startActivity(intent);
             }
         });
