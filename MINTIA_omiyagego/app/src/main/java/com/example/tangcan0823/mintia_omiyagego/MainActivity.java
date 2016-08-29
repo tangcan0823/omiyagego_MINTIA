@@ -20,6 +20,14 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_f1;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_f2;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_f3;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_f4;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_f5;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_f6;
+import com.example.tangcan0823.mintia_omiyagego.DetailActivity.DetailActivity;
+
 public class MainActivity extends AppCompatActivity implements BackHandledFragment.BackHandlerInterface {
 
     private DrawerLayout mDrawerLayout;
@@ -73,7 +81,24 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
                 startActivity(intent);
                 break;
             case R.id.okashi_2:
-                Toast.makeText(this, "つくばうむ", Toast.LENGTH_SHORT).show();
+                intent = new Intent(this, Activity_f2.class);
+                startActivity(intent);
+                break;
+            case R.id.okashi_3:
+                intent = new Intent(this, Activity_f3.class);
+                startActivity(intent);
+                break;
+            case R.id.okashi_4:
+                intent = new Intent(this, Activity_f4.class);
+                startActivity(intent);
+                break;
+            case R.id.okashi_5:
+                intent = new Intent(this, Activity_f5.class);
+                startActivity(intent);
+                break;
+            case R.id.okashi_6:
+                intent = new Intent(this, Activity_f6.class);
+                startActivity(intent);
                 break;
             default:
                 break;
@@ -82,7 +107,7 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
 
     private void switchToMain() {
         getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new MainFragment()).commit();
-
+        mToolbar.setTitle(R.string.app_name);
     }
 
     private void switchToOkashi() {
@@ -114,7 +139,7 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
             profileView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    switchToOkashi();
+                    switchToMain();
                     mDrawerLayout.closeDrawers();
                     mNavigationView.getMenu().getItem(1).setChecked(true);
                 }

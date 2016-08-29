@@ -101,6 +101,22 @@
                         android:textStyle="bold" />
 
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textView_f0"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="12dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
+
+
+
                     <ImageButton
                         android:id="@+id/launchTwitterAnimation_f0"
                         android:layout_width="@dimen/dimen_56dp"
@@ -201,6 +217,20 @@
                         android:textColor="@color/grey"
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textView_f1"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="12dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
 
 
                     <ImageButton
@@ -303,6 +333,20 @@
                         android:textColor="@color/grey"
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textView_f2"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="12dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
 
 
                     <ImageButton
@@ -407,6 +451,20 @@
                         android:textStyle="bold" />
 
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textView_f3"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="12dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
+
                     <ImageButton
                         android:id="@+id/launchTwitterAnimation_f3"
                         android:layout_width="@dimen/dimen_56dp"
@@ -508,6 +566,19 @@
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textView_f4"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="12dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
 
                     <ImageButton
                         android:id="@+id/launchTwitterAnimation_f4"
@@ -610,6 +681,19 @@
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textView_f5"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="12dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
 
                     <ImageButton
                         android:id="@+id/launchTwitterAnimation_f5"
@@ -712,6 +796,19 @@
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/textView_f6"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="12dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
 
                     <ImageButton
                         android:id="@+id/launchTwitterAnimation_f6"

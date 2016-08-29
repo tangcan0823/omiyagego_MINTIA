@@ -15,15 +15,14 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
 
             <android.support.v7.widget.CardView
                 android:id="@+id/osake_0"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="goDetail"
                 android:layout_marginBottom="@dimen/dimen_5dp"
+                android:onClick="goDetail"
                 cardview:cardCornerRadius="@dimen/dimen_10dp"
                 cardview:cardElevation="@dimen/dimen_10dp"
                 cardview:cardUseCompatPadding="true">
@@ -44,7 +43,7 @@
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
                             android:scaleType="fitXY"
-                            android:src="@drawable/osake_00"/>
+                            android:src="@drawable/osake_00" />
 
                         <LinearLayout
                             android:id="@+id/linearView_o0"
@@ -100,6 +99,19 @@
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="12dp"
+                        android:text="@string/italic"
+                        android:layout_below="@id/textView_o0"
+                        android:textColor="@color/grey"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
 
                     <ImageButton
                         android:id="@+id/launchTwitterAnimation_o0"
@@ -124,8 +136,8 @@
                 android:id="@+id/osake_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="goDetail"
                 android:layout_marginBottom="@dimen/dimen_5dp"
+                android:onClick="goDetail"
                 cardview:cardCornerRadius="@dimen/dimen_10dp"
                 cardview:cardElevation="@dimen/dimen_10dp"
                 cardview:cardUseCompatPadding="true">
@@ -146,7 +158,7 @@
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
                             android:scaleType="fitXY"
-                            android:src="@drawable/osake_01"/>
+                            android:src="@drawable/osake_01" />
 
                         <LinearLayout
                             android:id="@+id/linearView_o1"
@@ -202,6 +214,20 @@
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="12dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:layout_below="@id/textView_o1"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
+
 
                     <ImageButton
                         android:id="@+id/launchTwitterAnimation_o1"
@@ -226,8 +252,8 @@
                 android:id="@+id/osake_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="goDetail"
                 android:layout_marginBottom="@dimen/dimen_5dp"
+                android:onClick="goDetail"
                 cardview:cardCornerRadius="@dimen/dimen_10dp"
                 cardview:cardElevation="@dimen/dimen_10dp"
                 cardview:cardUseCompatPadding="true">
@@ -248,7 +274,7 @@
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
                             android:scaleType="fitXY"
-                            android:src="@drawable/osake_02"/>
+                            android:src="@drawable/osake_02" />
 
                         <LinearLayout
                             android:id="@+id/linearView_o2"
@@ -304,6 +330,19 @@
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="12dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:layout_below="@id/textView_o2"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
 
                     <ImageButton
                         android:id="@+id/launchTwitterAnimation_o2"
@@ -328,8 +367,8 @@
                 android:id="@+id/osake_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="goDetail"
                 android:layout_marginBottom="@dimen/dimen_5dp"
+                android:onClick="goDetail"
                 cardview:cardCornerRadius="@dimen/dimen_10dp"
                 cardview:cardElevation="@dimen/dimen_10dp"
                 cardview:cardUseCompatPadding="true">
@@ -350,7 +389,7 @@
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
                             android:scaleType="fitXY"
-                            android:src="@drawable/osake_03"/>
+                            android:src="@drawable/osake_03" />
 
                         <LinearLayout
                             android:id="@+id/linearView_o3"
@@ -406,6 +445,19 @@
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="12dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:layout_below="@id/textView_o3"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
 
                     <ImageButton
                         android:id="@+id/launchTwitterAnimation_o3"
@@ -430,8 +482,8 @@
                 android:id="@+id/osake_4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="goDetail"
                 android:layout_marginBottom="@dimen/dimen_5dp"
+                android:onClick="goDetail"
                 cardview:cardCornerRadius="@dimen/dimen_10dp"
                 cardview:cardElevation="@dimen/dimen_10dp"
                 cardview:cardUseCompatPadding="true">
@@ -452,7 +504,7 @@
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
                             android:scaleType="fitXY"
-                            android:src="@drawable/osake_04"/>
+                            android:src="@drawable/osake_04" />
 
                         <LinearLayout
                             android:id="@+id/linearView_o4"
@@ -508,6 +560,19 @@
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="12dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:layout_below="@id/textView_o4"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
 
                     <ImageButton
                         android:id="@+id/launchTwitterAnimation_o4"
@@ -532,8 +597,8 @@
                 android:id="@+id/osake_5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="goDetail"
                 android:layout_marginBottom="@dimen/dimen_5dp"
+                android:onClick="goDetail"
                 cardview:cardCornerRadius="@dimen/dimen_10dp"
                 cardview:cardElevation="@dimen/dimen_10dp"
                 cardview:cardUseCompatPadding="true">
@@ -554,7 +619,7 @@
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
                             android:scaleType="fitXY"
-                            android:src="@drawable/osake_05"/>
+                            android:src="@drawable/osake_05" />
 
                         <LinearLayout
                             android:id="@+id/linearView_o5"
@@ -610,6 +675,19 @@
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="12dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:layout_below="@id/textView_o5"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
 
                     <ImageButton
                         android:id="@+id/launchTwitterAnimation_o5"
@@ -634,8 +712,8 @@
                 android:id="@+id/osake_6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="goDetail"
                 android:layout_marginBottom="@dimen/dimen_5dp"
+                android:onClick="goDetail"
                 cardview:cardCornerRadius="@dimen/dimen_10dp"
                 cardview:cardElevation="@dimen/dimen_10dp"
                 cardview:cardUseCompatPadding="true">
@@ -656,7 +734,7 @@
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
                             android:scaleType="fitXY"
-                            android:src="@drawable/osake_06"/>
+                            android:src="@drawable/osake_06" />
 
                         <LinearLayout
                             android:id="@+id/linearView_o6"
@@ -713,6 +791,20 @@
                         android:textStyle="bold" />
 
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="12dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:layout_below="@id/textView_o6"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
+
                     <ImageButton
                         android:id="@+id/launchTwitterAnimation_o6"
                         android:layout_width="@dimen/dimen_56dp"
@@ -736,8 +828,8 @@
                 android:id="@+id/osake_7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:onClick="goDetail"
                 android:layout_marginBottom="@dimen/dimen_5dp"
+                android:onClick="goDetail"
                 cardview:cardCornerRadius="@dimen/dimen_10dp"
                 cardview:cardElevation="@dimen/dimen_10dp"
                 cardview:cardUseCompatPadding="true">
@@ -758,7 +850,7 @@
                             android:layout_height="wrap_content"
                             android:adjustViewBounds="true"
                             android:scaleType="fitXY"
-                            android:src="@drawable/osake_07"/>
+                            android:src="@drawable/osake_07" />
 
                         <LinearLayout
                             android:id="@+id/linearView_o7"
@@ -814,6 +906,19 @@
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="12dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:layout_below="@id/textView_o7"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
 
                     <ImageButton
                         android:id="@+id/launchTwitterAnimation_o7"
@@ -833,8 +938,6 @@
 
 
             </android.support.v7.widget.CardView>
-
-
 
 
         </LinearLayout>

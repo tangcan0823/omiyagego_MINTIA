@@ -1,4 +1,4 @@
-package com.example.tangcan0823.mintia_omiyagego;
+package com.example.tangcan0823.mintia_omiyagego.DetailActivity;
 
 import android.content.res.AssetManager;
 import android.os.Bundle;
@@ -12,6 +12,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageView;
+
+import com.example.tangcan0823.mintia_omiyagego.DetailFragment;
+import com.example.tangcan0823.mintia_omiyagego.R;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -46,19 +49,15 @@ public class DetailActivity extends AppCompatActivity {
         ivImage.setImageResource(R.drawable.food_pic00);
         mViewPager = (ViewPager) findViewById(R.id.viewpager);
         setupViewPager(mViewPager);
-
         TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
-        tabLayout.addTab(tabLayout.newTab().setText("詳細"));
-        tabLayout.addTab(tabLayout.newTab().setText("紹介"));
-        tabLayout.addTab(tabLayout.newTab().setText("経路"));
         tabLayout.setupWithViewPager(mViewPager);
     }
 
     public void setupViewPager(ViewPager mViewPager) {
         MyPagerAdapter adapter = new MyPagerAdapter(getSupportFragmentManager());
-        adapter.addFragment(DetailFragment.newInstance(getAsset("food_infoData/food_info00.txt")), "詳細");
         adapter.addFragment(DetailFragment.newInstance(getAsset("food_introData/food_intro00.txt")), "紹介");
-        adapter.addFragment(DetailFragment.newInstance(""), "レビュー");
+        adapter.addFragment(DetailFragment.newInstance(""), "経路");
+        adapter.addFragment(DetailFragment.newInstance(getAsset("food_infoData/food_info00.txt")), "詳細");
         mViewPager.setAdapter(adapter);
     }
 
@@ -74,7 +73,7 @@ public class DetailActivity extends AppCompatActivity {
     }
 
 
-    static class MyPagerAdapter extends FragmentPagerAdapter {
+    public static class MyPagerAdapter extends FragmentPagerAdapter {
         private final List<Fragment> mFragments = new ArrayList<>();
         private final List<String> mFragmentTitles = new ArrayList<>();
 

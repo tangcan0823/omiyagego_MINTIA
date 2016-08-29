@@ -100,6 +100,21 @@
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="12dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:layout_below="@id/textView_k0"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
+
+
 
                     <ImageButton
                         android:id="@+id/launchTwitterAnimation_k0"
@@ -202,6 +217,20 @@
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="12dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:layout_below="@id/textView_k1"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
+
 
                     <ImageButton
                         android:id="@+id/launchTwitterAnimation_k1"
@@ -214,7 +243,7 @@
                         android:adjustViewBounds="true"
                         android:background="@drawable/rounded_button"
                         android:elevation="@dimen/dimen_4dp"
-                        android:onClick="launchTwitter"
+                        android:onClick="Animation"
                         android:src="@mipmap/twitter_logo" />
 
                 </RelativeLayout>
@@ -305,6 +334,20 @@
                         android:textStyle="bold" />
 
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="12dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:layout_below="@id/textView_k2"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
+
                     <ImageButton
                         android:id="@+id/launchTwitterAnimation_k2"
                         android:layout_width="@dimen/dimen_56dp"
@@ -316,7 +359,7 @@
                         android:adjustViewBounds="true"
                         android:background="@drawable/rounded_button"
                         android:elevation="@dimen/dimen_4dp"
-                        android:onClick="launchTwitter"
+                        android:onClick="Animation"
                         android:src="@mipmap/twitter_logo" />
 
                 </RelativeLayout>
@@ -406,6 +449,19 @@
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="12dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:layout_below="@id/textView_k3"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
 
                     <ImageButton
                         android:id="@+id/launchTwitterAnimation_k3"
@@ -418,7 +474,7 @@
                         android:adjustViewBounds="true"
                         android:background="@drawable/rounded_button"
                         android:elevation="@dimen/dimen_4dp"
-                        android:onClick="launchTwitter"
+                        android:onClick="Animation"
                         android:src="@mipmap/twitter_logo" />
 
                 </RelativeLayout>
@@ -508,6 +564,19 @@
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="12dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:layout_below="@id/textView_k4"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
 
                     <ImageButton
                         android:id="@+id/launchTwitterAnimation_k4"
@@ -520,7 +589,7 @@
                         android:adjustViewBounds="true"
                         android:background="@drawable/rounded_button"
                         android:elevation="@dimen/dimen_4dp"
-                        android:onClick="launchTwitter"
+                        android:onClick="Animation"
                         android:src="@mipmap/twitter_logo" />
 
                 </RelativeLayout>
@@ -610,6 +679,19 @@
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="12dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:layout_below="@id/textView_k5"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
 
                     <ImageButton
                         android:id="@+id/launchTwitterAnimation_k5"
@@ -622,7 +704,7 @@
                         android:adjustViewBounds="true"
                         android:background="@drawable/rounded_button"
                         android:elevation="@dimen/dimen_4dp"
-                        android:onClick="launchTwitter"
+                        android:onClick="Animation"
                         android:src="@mipmap/twitter_logo" />
 
                 </RelativeLayout>
@@ -712,6 +794,19 @@
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="12dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:layout_below="@id/textView_k6"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
 
                     <ImageButton
                         android:id="@+id/launchTwitterAnimation_k6"
@@ -724,7 +819,7 @@
                         android:adjustViewBounds="true"
                         android:background="@drawable/rounded_button"
                         android:elevation="@dimen/dimen_4dp"
-                        android:onClick="launchTwitter"
+                        android:onClick="Animation"
                         android:src="@mipmap/twitter_logo" />
 
                 </RelativeLayout>
@@ -814,6 +909,19 @@
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="12dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:layout_below="@id/textView_k7"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
 
                     <ImageButton
                         android:id="@+id/launchTwitterAnimation_k7"
@@ -826,7 +934,7 @@
                         android:adjustViewBounds="true"
                         android:background="@drawable/rounded_button"
                         android:elevation="@dimen/dimen_4dp"
-                        android:onClick="launchTwitter"
+                        android:onClick="Animation"
                         android:src="@mipmap/twitter_logo" />
 
                 </RelativeLayout>
@@ -916,6 +1024,19 @@
                         android:textSize="@dimen/dimen_16sp"
                         android:textStyle="bold" />
 
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-medium"
+                        android:paddingBottom="16dp"
+                        android:paddingLeft="24dp"
+                        android:paddingRight="24dp"
+                        android:paddingTop="12dp"
+                        android:text="@string/italic"
+                        android:textColor="@color/grey"
+                        android:layout_below="@id/textView_k8"
+                        android:textSize="16sp"
+                        android:textStyle="italic" />
 
                     <ImageButton
                         android:id="@+id/launchTwitterAnimation_k8"
@@ -928,7 +1049,7 @@
                         android:adjustViewBounds="true"
                         android:background="@drawable/rounded_button"
                         android:elevation="@dimen/dimen_4dp"
-                        android:onClick="launchTwitter"
+                        android:onClick="Animation"
                         android:src="@mipmap/twitter_logo" />
 
                 </RelativeLayout>
