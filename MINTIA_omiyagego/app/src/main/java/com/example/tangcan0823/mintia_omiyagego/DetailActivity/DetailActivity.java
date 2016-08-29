@@ -1,8 +1,10 @@
 package com.example.tangcan0823.mintia_omiyagego.DetailActivity;
 
+import android.content.Intent;
 import android.content.res.AssetManager;
 import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
+import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -12,10 +14,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
+import com.example.tangcan0823.mintia_omiyagego.CommentActivity;
 import com.example.tangcan0823.mintia_omiyagego.DetailFragment;
 import com.example.tangcan0823.mintia_omiyagego.R;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -27,9 +30,8 @@ import java.util.Scanner;
  */
 public class DetailActivity extends AppCompatActivity {
 
-    public ViewPager mViewPager;
-
-
+    ViewPager mViewPager;
+    public FloatingActionButton mFabButton;
     @Override
      protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,6 +53,16 @@ public class DetailActivity extends AppCompatActivity {
         setupViewPager(mViewPager);
         TabLayout tabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
         tabLayout.setupWithViewPager(mViewPager);
+
+        mFabButton = (FloatingActionButton)findViewById(R.id.fab_normal);
+        mFabButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), CommentActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 
     public void setupViewPager(ViewPager mViewPager) {
@@ -100,5 +112,6 @@ public class DetailActivity extends AppCompatActivity {
         public CharSequence getPageTitle(int position) {
             return mFragmentTitles.get(position);
         }
-    }
+        }
+
 }

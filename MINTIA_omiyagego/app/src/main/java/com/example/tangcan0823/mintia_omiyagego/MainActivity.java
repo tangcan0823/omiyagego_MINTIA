@@ -1,16 +1,32 @@
 package com.example.tangcan0823.mintia_omiyagego;
 
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.IntentFilter;
+import android.net.Uri;
 import android.animation.Animator;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
+import android.support.v4.content.LocalBroadcastManager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GoogleApiAvailability;
+import com.kii.cloud.storage.Kii;
+import com.kii.cloud.storage.KiiObject;
+import com.kii.cloud.storage.KiiUser;
+import com.kii.cloud.storage.callback.KiiObjectCallBack;
+import com.kii.cloud.storage.callback.KiiUserCallBack;
 import android.view.ViewAnimationUtils;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -47,6 +63,8 @@ import com.example.tangcan0823.mintia_omiyagego.DetailActivity.DetailActivity;
 
 public class MainActivity extends AppCompatActivity implements BackHandledFragment.BackHandlerInterface {
 
+    private static final int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
+    private BroadcastReceiver mRegistrationBroadcastReceiver;
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mDrawerToggle;
     private Toolbar mToolbar;
@@ -67,6 +85,44 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
+
+        //******************************************************:
+
+        Kii.initialize(getApplicationContext(), "62efe455", "04bcacd4b05daa322166d9a272e0ec3c", Kii.Site.JP, true);
+
+        mRegistrationBroadcastReceiver = new BroadcastReceiver() {
+            @Override
+            public void onReceive(Context context, Intent intent) {
+                String errorMessage = intent.getStringExtra("ErrorMessage");
+                Log.e("GCMTest", "Registration completed:" + errorMessage);
+                if (errorMessage != null) {
+                    Toast.makeText(MainActivity.this, "Error push registration:" + errorMessage, Toast.LENGTH_LONG).show();
+                } else {
+                    Toast.makeText(MainActivity.this, "Succeeded push registration", Toast.LENGTH_LONG).show();
+                }
+            }
+        };
+
+        if (!checkPlayServices()) {
+            Toast.makeText(MainActivity.this, "This application needs Google Play services", Toast.LENGTH_LONG).show();
+            return;
+        }
+
+        String username = "user1";
+        String password = "123ABC";
+        KiiUser.logIn(new KiiUserCallBack() {
+            @Override
+            public void onLoginCompleted(int token, KiiUser user, Exception exception) {
+                if (exception != null) {
+                    Toast.makeText(MainActivity.this, "Error login user:" + exception.getMessage(), Toast.LENGTH_LONG).show();
+                    return;
+                }
+                Intent intent = new Intent(MainActivity.this, RegistrationIntentService.class);
+                startService(intent);
+            }
+        }, username, password);
+
+        //******************************************************
         setSupportActionBar(mToolbar);
 
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -313,14 +369,38 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
                 doExitApp();
             }
         }
-
     }
 
+    private boolean checkPlayServices() {
+        GoogleApiAvailability apiAvailability = GoogleApiAvailability.getInstance();
+        int resultCode = apiAvailability.isGooglePlayServicesAvailable(this);
+        if (resultCode != ConnectionResult.SUCCESS) {
+            if (apiAvailability.isUserResolvableError(resultCode)) {
+                apiAvailability.getErrorDialog(this, resultCode, PLAY_SERVICES_RESOLUTION_REQUEST)
+                        .show();
+            } else {
+                Log.i("PushTest", "This device is not supported.");
+                finish();
+            }
+            return false;
+        }
+        return true;
+    }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        LocalBroadcastManager.getInstance(this).registerReceiver(mRegistrationBroadcastReceiver,
+                new IntentFilter("com.example.kiicloudsample.COMPLETED"));
+    }
 
+    @Override
+    protected void onPause() {
+        LocalBroadcastManager.getInstance(this).unregisterReceiver(mRegistrationBroadcastReceiver);
+        super.onPause();
+    }
 
     public void launchTwitter(View view) {
-
 
         pixelDensity = getResources().getDisplayMetrics().density;
         alphaAnimation = AnimationUtils.loadAnimation(this, R.anim.alpha_anim);
