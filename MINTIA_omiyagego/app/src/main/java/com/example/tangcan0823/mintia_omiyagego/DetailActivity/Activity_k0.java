@@ -12,6 +12,7 @@ import android.widget.ImageView;
 
 import com.example.tangcan0823.mintia_omiyagego.CommentActivity;
 import com.example.tangcan0823.mintia_omiyagego.DetailFragment;
+import com.example.tangcan0823.mintia_omiyagego.DetailRoadFragment;
 import com.example.tangcan0823.mintia_omiyagego.R;
 
 /**
@@ -58,9 +59,11 @@ public class Activity_k0 extends DetailActivity {
     @Override
     public void setupViewPager(ViewPager mViewPager) {
         MyPagerAdapter adapter = new MyPagerAdapter(getSupportFragmentManager());
+
         adapter.addFragment(DetailFragment.newInstance(getAsset("kougeihin_introData/kougeihin_intro00.txt")), "紹介");
-        adapter.addFragment(DetailFragment.newInstance(""), "経路");
+        adapter.addFragment(DetailRoadFragment.newInstance("", "" + (String) getText(R.string.kougeihin_search_0)), "地図");
         adapter.addFragment(DetailFragment.newInstance(getAsset("kougeihin_infoData/kougeihin_info00.txt")), "詳細");
+
         mViewPager.setAdapter(adapter);
     }
 

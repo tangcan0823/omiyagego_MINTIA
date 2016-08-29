@@ -7,11 +7,13 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 
 import com.example.tangcan0823.mintia_omiyagego.CommentActivity;
 import com.example.tangcan0823.mintia_omiyagego.DetailFragment;
+import com.example.tangcan0823.mintia_omiyagego.DetailRoadFragment;
 import com.example.tangcan0823.mintia_omiyagego.R;
 
 /**
@@ -59,8 +61,9 @@ public class Activity_f1 extends DetailActivity {
     public void setupViewPager(ViewPager mViewPager) {
         MyPagerAdapter adapter = new MyPagerAdapter(getSupportFragmentManager());
         adapter.addFragment(DetailFragment.newInstance(getAsset("food_introData/food_intro01.txt")), "紹介");
-        adapter.addFragment(DetailFragment.newInstance(""), "経路");
+        adapter.addFragment(DetailRoadFragment.newInstance("", "" + (String) getText(R.string.food_search_1)), "地図");
         adapter.addFragment(DetailFragment.newInstance(getAsset("food_infoData/food_info01.txt")), "詳細");
+
         mViewPager.setAdapter(adapter);
     }
 

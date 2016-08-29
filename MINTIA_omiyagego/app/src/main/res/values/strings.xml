@@ -7,7 +7,7 @@
     <string name="navigation_okashi">お菓子</string>
     <string name="navigation_osake">お酒</string>
     <string name="navigation_kougehin">工芸品</string>
-    <string name="navigation_about">Contact Us</string>
+    <string name="navigation_about">メンバー紹介</string>
 
 
     <string name="drawer_open">Open</string>
@@ -42,17 +42,58 @@
     <string name="kougeihin_description_7">商品名: 雪村うちわ \n店舗: 枡儀団扇店 圷 總子 \n住所: 常陸太田市塙町2274 \n営業時間: 不明 \n電話: 0294-72-7159 \n価格: 不明</string>
     <string name="kougeihin_description_8">商品名: 涸沼竿 \n店舗: 東明工房 川上 東明 \n住所: 水戸市水府町1570-28 \n営業時間: 不明 \n電話: 029-225-6835 \n価格: 不明</string>
 
+    <string name="food_title_2">キャラメルプリン(5個入り)</string>
+    <string name="food_title_3">つくばうむ</string>
+
+    <string name="food_search_0">茨城県桜川市真壁町飯塚113-1 つくばプリン ふじ屋</string>
+    <string name="food_search_1">茨城県桜川市真壁町飯塚113-1 つくばプリン ふじ屋</string>
+    <string name="food_search_2">つくば市東新井19-26 コート・ダジュール</string>
+    <string name="food_search_3">茨城県つくば市吾妻2-128 つくばの良い品</string>
+    <string name="food_search_4">茨城県つくば市千現2-1-1 </string>
+    <string name="food_search_5">つくば市東新井19-26　コート・ダジュール</string>
+    <string name="food_search_6">茨城県つくば市吾妻2-128 つくばの良い品</string>
+
+    <string name="kougeihin_search_0">梅田八主森</string>
+    <string name="kougeihin_search_1">笠間焼協同組合</string>
+    <string name="kougeihin_search_2">なし(直接注文のみ)</string>
+    <string name="kougeihin_search_3">堀江桐タンス店</string>
+    <string name="kougeihin_search_4">猪ノ原木工所 猪ノ原</string>
+    <string name="kougeihin_search_5">天心焼研究会</string>
+    <string name="kougeihin_search_6">株式会社 青野商店</string>
+    <string name="kougeihin_search_7">枡儀団扇店 圷 總子</string>
+    <string name="kougeihin_search_8">東明工房 川上 東明</string>
+
+    <string name="osake_search_0">水戸市元吉田町338 別春館</string>
+    <string name="osake_search_1">牛久市中央3-20-1 シャトーカミヤ</string>
+    <string name="osake_search_2">つくば市沼田1485 稲葉酒造</string>
+    <string name="osake_search_3">茨城県水戸市元吉田町339番地 明利酒類株式会社</string>
+    <string name="osake_search_4">つくば市沼田1485 稲葉酒造</string>
+    <string name="osake_search_5">茨城県水戸市元吉田町338番地 明利酒類株式会社</string>
+    <string name="osake_search_6">つくば市沼田1485 稲葉酒造</string>
+    <string name="osake_search_7">つくば市吉沼4895 つくばヤーコン</string>
+
 
     <string name="search">捜索</string>
     <string name="input_hint">キーワードを入力してください</string>
     <string name="input_prefill"></string>
     <string name="title_buttom_tab">Buttom Tab</string>
 
+    <string name="member_name_1">馮 晞綱</string>
+    <string name="member_Introduction_1">こんにちは．馮 晞綱です．</string>
+    <string name="member_name_2">唐 燦</string>
+    <string name="member_Introduction_2">こんにちは．唐 燦です．</string>
+    <string name="member_name_3">PU YUE</string>
+    <string name="member_Introduction_3">こんにちは．PU YUEです．</string>
+    <string name="member_name_4">ZHONG YURAN</string>
+    <string name="member_Introduction_4">こんにちは．ZHONG YURANです．</string>
+    <string name="member_name_5">安藤　顕人</string>
+    <string name="member_Introduction_5">こんにちは．安藤　顕人です．</string>
+    <string name="member_name_6">田辺　光希</string>
+    <string name="member_Introduction_6">こんにちは．田辺光希です．</string>
+
     <string name="duplicate">SHARE</string>
     <string name="schedule">SAVE</string>
     <string name="delete">IGNORE</string>
     <string name="italic">Wednesday 31 AUG.</string>
-
-
 
 </resources>
