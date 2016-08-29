@@ -7,6 +7,8 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <!-- Add this line if you need both READ/WRITE access -->
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
 
     <application
@@ -26,6 +28,37 @@
         <activity android:name=".DetailActivity"/>
         <activity android:name=".CommentActivity"></activity>
         <service android:name="com.kii.cloud.analytics.EventUploadService" />
+
+        <!-- *** add following lines *** -->
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <category android:name="com.example.tangcan0823.mintia_omiyagego" />
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.example.tangcan0823.mintia_omiyagego.MyGcmListenerService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.example.tangcan0823.mintia_omiyagego.MyInstanceIDListenerService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.example.tangcan0823.mintia_omiyagego.RegistrationIntentService"
+            android:exported="false">
+        </service>
+        <!-- *** up to this point *** -->
+
 
     </application>
 

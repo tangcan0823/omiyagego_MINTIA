@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "364732190575",
+    "project_id": "mintia-4d584"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364732190575:android:ebf4d4c79d86dfb1",
+        "android_client_info": {
+          "package_name": "com.example.tangcan0823.mintia_omiyagego"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4LK922zGn449IaQwM0yLrH0g3X8He5eE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
