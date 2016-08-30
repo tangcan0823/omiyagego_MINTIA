@@ -37,7 +37,7 @@ public class MemberActivity extends EuclidActivity {
 
         int[] avatars = {
                 R.drawable.tangcan,
-                R.drawable.tangcan,
+                R.drawable.zhongyuran,
                 R.drawable.tangcan,
                 R.drawable.tangcan,
                 R.drawable.tangcan,
