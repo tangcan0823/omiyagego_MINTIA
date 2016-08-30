@@ -91,12 +91,12 @@
 
 
     <string-array name="lorem_ipsum_short">
-        <item>Hello,my name is Tang Can</item>
+        <item>Nothing is so common as wish to be remarkable</item>
         <item>Congrats to Wings Gaming for winning Ti6 Champion .</item>
-        <item>Hello,my name is feng xigang</item>
-        <item>Hello,my name is pu yue</item>
-        <item>Hello,my name is kento ando</item>
-        <item>Hello,my name is kouki tanabe</item>
+        <item>Hello,my name is Feng Xigang</item>
+        <item>Hello,my name is Pu Yue</item>
+        <item>Hello,my name is Kento Ando</item>
+        <item>Hello,my name is Kouki Tanabe</item>
     </string-array>
 
     <string-array name="lorem_ipsum_long">
