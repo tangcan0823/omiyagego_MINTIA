@@ -474,6 +474,7 @@
                         android:src="@mipmap/twitter_logo" />
 
                 </RelativeLayout>
+>>>>>>> fc859f577e080a0a8be4a19e83f91113304bb275
 
 
             </android.support.v7.widget.CardView>

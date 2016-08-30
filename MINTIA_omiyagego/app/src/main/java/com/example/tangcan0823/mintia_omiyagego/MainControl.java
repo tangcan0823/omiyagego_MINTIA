@@ -43,7 +43,7 @@ public class MainControl extends AppCompatActivity {
             Looper.prepare();
             handler1 = new Handler(){
                 public void handleMessage(android.os.Message msg) {    //if Thread1 get the message from Thread2
-                    SystemClock.sleep(4000);
+                    SystemClock.sleep(2000);
                     Intent intent = new Intent(getApplicationContext(),MainActivity.class);//open the page
                     startActivity(intent);
                     finish();

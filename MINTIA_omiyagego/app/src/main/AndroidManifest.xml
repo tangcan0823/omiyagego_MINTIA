@@ -9,8 +9,10 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
 
     <application
         android:allowBackup="true"
@@ -63,30 +65,33 @@
             android:exported="false" />
         <!-- *** up to this point *** -->
 
-        <activity android:name=".DetailActivity.DetailActivity" />
-        <activity android:name=".DetailActivity.Activity_f1" />
-        <activity android:name=".DetailActivity.Activity_f2" />
-        <activity android:name=".DetailActivity.Activity_f3" />
-        <activity android:name=".DetailActivity.Activity_f4" />
-        <activity android:name=".DetailActivity.Activity_f5" />
-        <activity android:name=".DetailActivity.Activity_f6" />
-        <activity android:name=".DetailActivity.Activity_k0" />
-        <activity android:name=".DetailActivity.Activity_k1" />
-        <activity android:name=".DetailActivity.Activity_k2" />
-        <activity android:name=".DetailActivity.Activity_k3" />
-        <activity android:name=".DetailActivity.Activity_k4" />
-        <activity android:name=".DetailActivity.Activity_k5" />
-        <activity android:name=".DetailActivity.Activity_k6" />
-        <activity android:name=".DetailActivity.Activity_k7" />
-        <activity android:name=".DetailActivity.Activity_k8" />
-        <activity android:name=".DetailActivity.Activity_o0" />
-        <activity android:name=".DetailActivity.Activity_o1" />
-        <activity android:name=".DetailActivity.Activity_o2" />
-        <activity android:name=".DetailActivity.Activity_o3" />
-        <activity android:name=".DetailActivity.Activity_o4" />
-        <activity android:name=".DetailActivity.Activity_o5" />
-        <activity android:name=".DetailActivity.Activity_o6" />
-        <activity android:name=".DetailActivity.Activity_o7" />
+
+        <activity android:name=".MemberActivity"/>
+        <activity android:name=".DetailActivity.DetailActivity"/>
+        <activity android:name=".DetailActivity.Activity_f1"/>
+        <activity android:name=".DetailActivity.Activity_f2"/>
+        <activity android:name=".DetailActivity.Activity_f3"/>
+        <activity android:name=".DetailActivity.Activity_f4"/>
+        <activity android:name=".DetailActivity.Activity_f5"/>
+        <activity android:name=".DetailActivity.Activity_f6"/>
+        <activity android:name=".DetailActivity.Activity_k0"/>
+        <activity android:name=".DetailActivity.Activity_k1"/>
+        <activity android:name=".DetailActivity.Activity_k2"/>
+        <activity android:name=".DetailActivity.Activity_k3"/>
+        <activity android:name=".DetailActivity.Activity_k4"/>
+        <activity android:name=".DetailActivity.Activity_k5"/>
+        <activity android:name=".DetailActivity.Activity_k6"/>
+        <activity android:name=".DetailActivity.Activity_k7"/>
+        <activity android:name=".DetailActivity.Activity_k8"/>
+        <activity android:name=".DetailActivity.Activity_o0"/>
+        <activity android:name=".DetailActivity.Activity_o1"/>
+        <activity android:name=".DetailActivity.Activity_o2"/>
+        <activity android:name=".DetailActivity.Activity_o3"/>
+        <activity android:name=".DetailActivity.Activity_o4"/>
+        <activity android:name=".DetailActivity.Activity_o5"/>
+        <activity android:name=".DetailActivity.Activity_o6"/>
+        <activity android:name=".DetailActivity.Activity_o7"/>
+>>>>>>> 79a91d4ae3bf84b9f8007465d1a2ef0437d0e02d
 
         <activity android:name=".MainControl" />
         <activity android:name=".start" />
