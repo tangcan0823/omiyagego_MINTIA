@@ -58,6 +58,7 @@
         </service>
         <!-- *** up to this point *** -->
 
+        <activity android:name=".MemberActivity"/>
         <activity android:name=".DetailActivity.DetailActivity"/>
         <activity android:name=".DetailActivity.Activity_f1"/>
         <activity android:name=".DetailActivity.Activity_f2"/>
