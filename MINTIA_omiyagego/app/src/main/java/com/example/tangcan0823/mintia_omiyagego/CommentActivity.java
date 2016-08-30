@@ -137,7 +137,7 @@ public class CommentActivity extends AppCompatActivity {
             }
         });
 
-        mImageButtonStar1 = (ImageButton) findViewById(R.id.imageButton_star1);
+        /*mImageButtonStar1 = (ImageButton) findViewById(R.id.imageButton_star1);
         mImageButtonStar1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
                 starNumber = 1;
@@ -195,7 +195,7 @@ public class CommentActivity extends AppCompatActivity {
                 mImageButtonStar4.setImageResource(R.drawable.ic_star_beh);
                 mImageButtonStar5.setImageResource(R.drawable.ic_star_beh);
             }
-        });
+        });*/
 
         mEditCommentContext = (EditText)findViewById(R.id.editText_comment);
         mImageButtonSendComment = (ImageButton)findViewById(R.id.imageButton_send_comment);

@@ -15,12 +15,12 @@
         android:layout_y = "50dp" />
 
     <ListView
-        android:layout_width="600dp"
+        android:layout_width="wrap_content"
         android:layout_height="550dp"
-        android:layout_marginLeft="90dp"
         android:id="@+id/listView_comment_list"
         android:background="@drawable/listview"
-        android:layout_above="@+id/imageButton_star1"
+        android:layout_above="@+id/editText_comment"
+        android:layout_below="@+id/imageButton_back_to_former"
         android:layout_alignParentStart="false" />
 
     <ImageButton
@@ -34,51 +34,51 @@
         android:layout_gravity="right"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true" />
+    <!--
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton_star1"
+            android:src="@drawable/ic_star_pre"
+            android:background="#00000000"
+            android:layout_above="@+id/editText_comment"
+            android:layout_toStartOf="@+id/imageButton_star2" />
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButton_star1"
-        android:src="@drawable/ic_star_pre"
-        android:background="#00000000"
-        android:layout_above="@+id/editText_comment"
-        android:layout_toStartOf="@+id/imageButton_star2" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton_star2"
+            android:src="@drawable/ic_star_pre"
+            android:background="#00000000"
+            android:layout_above="@+id/editText_comment"
+            android:layout_toStartOf="@+id/imageButton_star3" />
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButton_star2"
-        android:src="@drawable/ic_star_pre"
-        android:background="#00000000"
-        android:layout_above="@+id/editText_comment"
-        android:layout_toStartOf="@+id/imageButton_star3" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton_star3"
+            android:src="@drawable/ic_star_pre"
+            android:background="#00000000"
+            android:layout_above="@+id/editText_comment"
+            android:layout_toStartOf="@+id/imageButton_star4" />
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButton_star3"
-        android:src="@drawable/ic_star_pre"
-        android:background="#00000000"
-        android:layout_above="@+id/editText_comment"
-        android:layout_toStartOf="@+id/imageButton_star4" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton_star4"
+            android:src="@drawable/ic_star_pre"
+            android:background="#00000000"
+            android:layout_above="@+id/editText_comment"
+            android:layout_toStartOf="@+id/imageButton_star5" />
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButton_star4"
-        android:src="@drawable/ic_star_pre"
-        android:background="#00000000"
-        android:layout_above="@+id/editText_comment"
-        android:layout_toStartOf="@+id/imageButton_star5" />
-
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageButton_star5"
-        android:src="@drawable/ic_star_pre"
-        android:background="#00000000"
-        android:layout_above="@+id/editText_comment"
-        android:layout_toStartOf="@+id/imageButton_comment_updata" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton_star5"
+            android:src="@drawable/ic_star_pre"
+            android:background="#00000000"
+            android:layout_above="@+id/editText_comment"
+            android:layout_toStartOf="@+id/imageButton_comment_updata" />-->
 
     <EditText
         android:layout_width="600dp"
