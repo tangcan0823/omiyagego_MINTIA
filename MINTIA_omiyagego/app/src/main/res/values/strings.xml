@@ -7,7 +7,7 @@
     <string name="navigation_okashi">お菓子</string>
     <string name="navigation_osake">お酒</string>
     <string name="navigation_kougehin">工芸品</string>
-    <string name="navigation_about">Contact Us</string>
+    <string name="navigation_about">About Us</string>
 
 
     <string name="drawer_open">Open</string>
@@ -101,7 +101,7 @@
 
     <string-array name="lorem_ipsum_long">
         <item>I am an international student from Sichuan China. I came to Japan to pursuing my own dream two years ago,
-            now I studying at the University of TsuKuba.I love traveling and communicate with people from allover the world.
+            now I studying at the University of Tsukuba.I love traveling and communicate with people from allover the world.
             Exchanging ideas with people from different cultures always makes me full of passion and excited.</item>
         <item>I am an international student from Sichuan China.
               I came to Japan for further education at the year of 2014.
@@ -114,7 +114,7 @@
             Exchanging ideas with people from different cultures always makes me full of passion and excited.</item>
         <item>Hi, I came from Ehime University. This is the first time to visit University of Tsukuba.
             Im busy with enPiT now!</item>
-         <item>I am a student of Ehime University. I am working in team Mintia of enPiT at Tsukuba University.
+         <item>I am a student of Ehime University. I am working in team Mintia of enPiT at University of Tsukuba.
            Hope this application can make your trips more convenient. \n\nWE LOVE TRAVELING!</item>
     </string-array>
 

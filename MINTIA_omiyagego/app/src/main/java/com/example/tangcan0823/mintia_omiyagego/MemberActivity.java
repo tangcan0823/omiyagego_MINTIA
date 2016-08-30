@@ -1,9 +1,7 @@
 package com.example.tangcan0823.mintia_omiyagego;
 
 import android.os.Bundle;
-import android.view.View;
 import android.widget.BaseAdapter;
-import android.widget.Toast;
 
 import com.yalantis.euclid.library.EuclidActivity;
 import com.yalantis.euclid.library.EuclidListAdapter;
@@ -22,12 +20,7 @@ public class MemberActivity extends EuclidActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        mButtonProfile.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(MemberActivity.this, "Oh Hello!", Toast.LENGTH_SHORT).show();
-            }
-        });
+
     }
 
     @Override

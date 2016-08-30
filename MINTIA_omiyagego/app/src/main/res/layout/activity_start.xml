@@ -12,7 +12,7 @@
     tools:context="com.example.tangcan0823.mintia_omiyagego.start">
 
     <ImageView
-        android:background="@drawable/start"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/start"
