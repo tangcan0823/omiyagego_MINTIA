@@ -39,9 +39,9 @@ public class MemberActivity extends EuclidActivity {
                 R.drawable.tangcan,
                 R.drawable.zhongyuran,
                 R.drawable.fon,
-                R.drawable.tangcan,
                 R.drawable.puyue,
-                R.drawable.tangcan,
+                R.drawable.ando,
+                R.drawable.tanabe,
 
 
                 };
