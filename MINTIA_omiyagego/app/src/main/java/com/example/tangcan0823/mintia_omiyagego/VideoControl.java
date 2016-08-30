@@ -22,7 +22,7 @@ public class VideoControl extends AppCompatActivity {
         //取消状态栏
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_video_control);
+       // setContentView(R.layout.activity_video_control);
         th1 = new Thread1();
         th1.setName("T1");//give it name
         th1.start();
@@ -50,9 +50,10 @@ public class VideoControl extends AppCompatActivity {
             Looper.prepare();
             handler1 = new Handler(){
                 public void handleMessage(android.os.Message msg) {    //if Thread1 get the message from Thread2
-                    SystemClock.sleep(18000);
+                    SystemClock.sleep(20000);
                     Intent intent = new Intent(getApplicationContext(),MainControl.class);//open the page
                     startActivity(intent);
+                    finish();
                 };
             };
             Looper.loop();

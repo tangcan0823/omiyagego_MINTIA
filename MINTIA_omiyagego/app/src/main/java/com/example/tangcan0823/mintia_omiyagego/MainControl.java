@@ -15,7 +15,7 @@ public class MainControl extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_control);
+        //setContentView(R.layout.activity_main_control);
         th1 = new Thread1();
         th1.setName("T1");//give it name
         th1.start();
@@ -46,6 +46,7 @@ public class MainControl extends AppCompatActivity {
                     SystemClock.sleep(4000);
                     Intent intent = new Intent(getApplicationContext(),MainActivity.class);//open the page
                     startActivity(intent);
+                    finish();
                 };
             };
             Looper.loop();

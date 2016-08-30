@@ -1,6 +1,7 @@
 package com.example.tangcan0823.mintia_omiyagego;
 
 import android.content.Intent;
+import android.graphics.Point;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -14,7 +15,7 @@ import java.io.File;
 
 public class video extends AppCompatActivity {
     private VideoView videoView = null;
-
+    private Point getSupportedPictureSizes;
 
 
     @Override
@@ -27,7 +28,7 @@ public class video extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_video);
         init();
-        videoView.setVideoPath(Environment.getExternalStorageDirectory() + File.separator + "my.mp4");
+        videoView.setVideoPath(Environment.getExternalStorageDirectory() + File.separator + "0830-800-1080.mp4");
         videoView.requestFocus();
         videoView.start();
 

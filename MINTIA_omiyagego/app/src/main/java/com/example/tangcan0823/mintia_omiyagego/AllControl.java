@@ -10,7 +10,7 @@ public class AllControl extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_all_control);
+        //setContentView(R.layout.activity_all_control);
         int i=1;
         if(i==1){
             Intent intent = new Intent(getApplicationContext(),VideoControl.class);//open the page
