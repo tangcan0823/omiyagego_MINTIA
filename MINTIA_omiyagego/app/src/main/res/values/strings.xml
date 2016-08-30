@@ -1,5 +1,5 @@
 ﻿<resources>
-    <string name="app_name">MINTIA</string>
+    <string name="app_name">おみやげGO</string>
 
     <string name="action_settings">Settings</string>
 
@@ -115,9 +115,8 @@
         <item>I am a international student from Sichuan China. I came to Japan to pursuing my own dream two years ago,
             now I studying at the University of TsuKuba.I love traveling and communicate with people from allover the world.
             Exchanging ideas with people from different cultures always makes me full of passion and excited.</item>
-        <item>I am a international student from Sichuan China. I came to Japan to pursuing my own dream two years ago,
-            now I studying at the University of TsuKuba.I love traveling and communicate with people from allover the world.
-            Exchanging ideas with people from different cultures always makes me full of passion and excited.</item>
+        <item>I am a student of Ehime University. I am working in team Mintia of enPiT at Tsukuba University.
+           Hope this application can make your trips more convenient. \n\nWE LOVE TRAVELING!</item>
     </string-array>
 
 
