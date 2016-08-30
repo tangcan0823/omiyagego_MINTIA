@@ -5,17 +5,13 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.EditText;
+import android.widget.FrameLayout;
 import android.widget.ImageButton;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import com.kii.cloud.storage.Kii;
-import com.kii.cloud.storage.KiiBucket;
 import com.kii.cloud.storage.KiiObject;
-import com.kii.cloud.storage.KiiUser;
 import com.kii.cloud.storage.callback.KiiObjectCallBack;
 
 import java.util.Arrays;
@@ -33,7 +29,7 @@ public class CommentActivity extends AppCompatActivity {
     private int Number = 0;
     private ListView mListViewEventList;
     private ArrayAdapter<String> mEventListAdapter = null;
-    private Button mButtonSendComment;
+    private ImageButton mImageButtonSendComment;
     private EditText mEditCommentContext;
     private String commentContext;
     private ImageButton mImageButtonRefresh;
@@ -43,6 +39,7 @@ public class CommentActivity extends AppCompatActivity {
     private ImageButton mImageButtonStar3;
     private ImageButton mImageButtonStar4;
     private ImageButton mImageButtonStar5;
+    private FrameLayout frameLayout;
     private String time = "";
     private int starNumber = 0;
 
@@ -53,6 +50,7 @@ public class CommentActivity extends AppCompatActivity {
 
         mListViewEventList = (ListView)findViewById(R.id.listView_comment_list);
         mEventListAdapter = new ArrayAdapter<String>(getApplicationContext(), R.layout.custom_text_list_item);
+        frameLayout = (FrameLayout) findViewById(R.id.toolbar_list_review);
 
         Bundle bundle = this.getIntent().getExtras();
         goods_id = bundle.getString("GOODS_ID");
@@ -92,7 +90,7 @@ public class CommentActivity extends AppCompatActivity {
             }
         });
 
-        mImageButtonRefresh = (ImageButton) findViewById(R.id.imageButton_comment_updata);
+        mImageButtonRefresh = (ImageButton) findViewById(R.id.review_refresh);
         mImageButtonRefresh.setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
                 mEventListAdapter.clear();
@@ -130,81 +128,20 @@ public class CommentActivity extends AppCompatActivity {
             }
         });
 
-        mImageButtonBack = (ImageButton) findViewById(R.id.imageButton_back_to_former);
+        mImageButtonBack = (ImageButton) findViewById(R.id.review_back);
         mImageButtonBack.setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
                 finish();
             }
         });
 
-        mImageButtonStar1 = (ImageButton) findViewById(R.id.imageButton_star1);
-        mImageButtonStar1.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View arg0) {
-                starNumber = 1;
-                mImageButtonStar1.setImageResource(R.drawable.ic_star_beh);
-                mImageButtonStar2.setImageResource(R.drawable.ic_star_pre);
-                mImageButtonStar3.setImageResource(R.drawable.ic_star_pre);
-                mImageButtonStar4.setImageResource(R.drawable.ic_star_pre);
-                mImageButtonStar5.setImageResource(R.drawable.ic_star_pre);
-            }
-        });
 
-        mImageButtonStar2 = (ImageButton) findViewById(R.id.imageButton_star2);
-        mImageButtonStar2.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View arg0) {
-                starNumber = 2;
-                mImageButtonStar1.setImageResource(R.drawable.ic_star_beh);
-                mImageButtonStar2.setImageResource(R.drawable.ic_star_beh);
-                mImageButtonStar3.setImageResource(R.drawable.ic_star_pre);
-                mImageButtonStar4.setImageResource(R.drawable.ic_star_pre);
-                mImageButtonStar5.setImageResource(R.drawable.ic_star_pre);
-            }
-        });
-
-        mImageButtonStar3 = (ImageButton) findViewById(R.id.imageButton_star3);
-        mImageButtonStar3.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View arg0) {
-                starNumber = 3;
-                mImageButtonStar1.setImageResource(R.drawable.ic_star_beh);
-                mImageButtonStar2.setImageResource(R.drawable.ic_star_beh);
-                mImageButtonStar3.setImageResource(R.drawable.ic_star_beh);
-                mImageButtonStar4.setImageResource(R.drawable.ic_star_pre);
-                mImageButtonStar5.setImageResource(R.drawable.ic_star_pre);
-            }
-        });
-
-        mImageButtonStar4 = (ImageButton) findViewById(R.id.imageButton_star4);
-        mImageButtonStar4.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View arg0) {
-                starNumber = 4;
-                mImageButtonStar1.setImageResource(R.drawable.ic_star_beh);
-                mImageButtonStar2.setImageResource(R.drawable.ic_star_beh);
-                mImageButtonStar3.setImageResource(R.drawable.ic_star_beh);
-                mImageButtonStar4.setImageResource(R.drawable.ic_star_beh);
-                mImageButtonStar5.setImageResource(R.drawable.ic_star_pre);
-            }
-        });
-
-        mImageButtonStar5 = (ImageButton) findViewById(R.id.imageButton_star5);
-        mImageButtonStar5.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View arg0) {
-                starNumber = 5;
-                mImageButtonStar1.setImageResource(R.drawable.ic_star_beh);
-                mImageButtonStar2.setImageResource(R.drawable.ic_star_beh);
-                mImageButtonStar3.setImageResource(R.drawable.ic_star_beh);
-                mImageButtonStar4.setImageResource(R.drawable.ic_star_beh);
-                mImageButtonStar5.setImageResource(R.drawable.ic_star_beh);
-            }
-        });
 
         mEditCommentContext = (EditText)findViewById(R.id.editText_comment);
-        mButtonSendComment = (Button)findViewById(R.id.button_send_comment);
-        mButtonSendComment.setOnClickListener(new View.OnClickListener() {
+        mImageButtonSendComment = (ImageButton)findViewById(R.id.imageButton_send_comment);
+        mImageButtonSendComment.setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
-                if (starNumber == 0){
-                    Toast.makeText(CommentActivity.this, "星を付けてください！", Toast.LENGTH_LONG).show();
-                }
-                else if(mEditCommentContext.length() == 0){
+                if(mEditCommentContext.length() == 0){
                     Toast.makeText(CommentActivity.this, "何とか一言書いてください", Toast.LENGTH_LONG).show();
                 }
                 else{
@@ -242,7 +179,6 @@ public class CommentActivity extends AppCompatActivity {
                         }
                     });
 
-                    time = time + " (" + starNumber + "星)";
 
                     //コメントをObjectに登録
                     comment_list_object.set(time , commentContext);

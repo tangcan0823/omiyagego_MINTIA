@@ -1,11 +1,10 @@
 package com.example.tangcan0823.mintia_omiyagego;
 
+import android.animation.Animator;
 import android.content.BroadcastReceiver;
 import android.content.Context;
-import android.content.IntentFilter;
-import android.net.Uri;
-import android.animation.Animator;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.content.LocalBroadcastManager;
@@ -17,16 +16,6 @@ import android.util.Log;
 import android.view.Gravity;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.TextView;
-import android.widget.Toast;
-
-import com.google.android.gms.common.ConnectionResult;
-import com.google.android.gms.common.GoogleApiAvailability;
-import com.kii.cloud.storage.Kii;
-import com.kii.cloud.storage.KiiObject;
-import com.kii.cloud.storage.KiiUser;
-import com.kii.cloud.storage.callback.KiiObjectCallBack;
-import com.kii.cloud.storage.callback.KiiUserCallBack;
 import android.view.ViewAnimationUtils;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -60,6 +49,11 @@ import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_o5;
 import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_o6;
 import com.example.tangcan0823.mintia_omiyagego.DetailActivity.Activity_o7;
 import com.example.tangcan0823.mintia_omiyagego.DetailActivity.DetailActivity;
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GoogleApiAvailability;
+import com.kii.cloud.storage.Kii;
+import com.kii.cloud.storage.KiiUser;
+import com.kii.cloud.storage.callback.KiiUserCallBack;
 
 public class MainActivity extends AppCompatActivity implements BackHandledFragment.BackHandlerInterface {
 
@@ -84,7 +78,18 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+ /*       VideoControl.instance2.finish();
+        video.instance.finish();
+        MainControl.instance4.finish();
+        start.instance2.finish();*/
+
+
+
+
+
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
+        mToolbar.setTitle(R.string.app_name);
 
         //******************************************************:
 
@@ -269,8 +274,8 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
 
 
     private void switchToAbout() {
-        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new MemberFragment()).commit();
-        mToolbar.setTitle(R.string.navigation_about);
+        Intent intent = new Intent(this, MemberActivity.class);
+        startActivity(intent);
     }
 
 
