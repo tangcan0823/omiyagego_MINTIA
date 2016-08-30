@@ -7,7 +7,7 @@
     <string name="navigation_okashi">お菓子</string>
     <string name="navigation_osake">お酒</string>
     <string name="navigation_kougehin">工芸品</string>
-    <string name="navigation_about">メンバー紹介</string>
+    <string name="navigation_about">Contact Us</string>
 
 
     <string name="drawer_open">Open</string>
@@ -90,6 +90,48 @@
     <string name="member_Introduction_5">こんにちは．安藤　顕人です．</string>
     <string name="member_name_6">田辺　光希</string>
     <string name="member_Introduction_6">こんにちは．田辺光希です．</string>
+
+    <string-array name="array_names">
+        <item>"TANG CAN"</item>
+        <item>"ZHONG YURAN"</item>
+        <item>"FENG XI GANG"</item>
+        <item>"PU YUE"</item>
+        <item>"KENTO ANDO"</item>
+        <item>"KOUKI TANABE"</item>
+    </string-array>
+
+
+    <string-array name="lorem_ipsum_short">
+        <item>Hello,my name is tang can</item>
+        <item>Hello,my name is zhong yuran</item>
+        <item>Hello,my name is feng xi gang</item>
+        <item>Hello,my name is pu yue</item>
+        <item>Hello,my name is kento ando</item>
+        <item>Hello,my name is kouki tanabe</item>
+    </string-array>
+
+    <string-array name="lorem_ipsum_long">
+        <item>I am a international student from Sichuan China. I came to Japan to pursuing my own dream two years ago,
+            now I studying at the University of TsuKuba.I love traveling and communicate with people from allover the world.
+            Exchanging ideas with people from different cultures always makes me full of passion and excited.</item>
+        <item>I am a international student from Sichuan China. I came to Japan to pursuing my own dream two years ago,
+            now I studying at the University of TsuKuba.I love traveling and communicate with people from allover the world.
+            Exchanging ideas with people from different cultures always makes me full of passion and excited.</item>
+        <item>I am a international student from Sichuan China. I came to Japan to pursuing my own dream two years ago,
+            now I studying at the University of TsuKuba.I love traveling and communicate with people from allover the world.
+            Exchanging ideas with people from different cultures always makes me full of passion and excited.</item>
+        <item>I am a international student from Sichuan China. I came to Japan to pursuing my own dream two years ago,
+            now I studying at the University of TsuKuba.I love traveling and communicate with people from allover the world.
+            Exchanging ideas with people from different cultures always makes me full of passion and excited.</item>
+        <item>I am a international student from Sichuan China. I came to Japan to pursuing my own dream two years ago,
+            now I studying at the University of TsuKuba.I love traveling and communicate with people from allover the world.
+            Exchanging ideas with people from different cultures always makes me full of passion and excited.</item>
+        <item>I am a international student from Sichuan China. I came to Japan to pursuing my own dream two years ago,
+            now I studying at the University of TsuKuba.I love traveling and communicate with people from allover the world.
+            Exchanging ideas with people from different cultures always makes me full of passion and excited.</item>
+    </string-array>
+
+
 
     <string name="duplicate">SHARE</string>
     <string name="schedule">SAVE</string>
