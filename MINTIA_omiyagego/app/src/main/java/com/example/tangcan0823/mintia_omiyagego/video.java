@@ -1,5 +1,6 @@
 package com.example.tangcan0823.mintia_omiyagego;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Point;
 import android.os.Environment;
@@ -16,10 +17,11 @@ import java.io.File;
 public class video extends AppCompatActivity {
     private VideoView videoView = null;
     private Point getSupportedPictureSizes;
-
+    public static video instance= null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        instance = this;
         super.onCreate(savedInstanceState);
         //取消标题
         requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -41,16 +43,17 @@ public class video extends AppCompatActivity {
 
     @Override
     public void onStop(){
-        video.finish();
+
     }*/
     private void init() {
         videoView = (VideoView) findViewById(R.id.videoView);
     }
     public void OnMySelfClick(View v)
     {
-        finish();
+
         Intent intent = new Intent(getApplicationContext(),MainControl.class);//open the page
         startActivity(intent);
+
     }
 
 

@@ -1,5 +1,6 @@
 package com.example.tangcan0823.mintia_omiyagego;
 
+import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Window;
@@ -17,7 +18,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 public class start extends AppCompatActivity {
-
+    public static start instance2 = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         /*this.requestWindowFeature(Window.FEATURE_NO_TITLE);//去掉标题栏*/
@@ -32,5 +33,14 @@ public class start extends AppCompatActivity {
         Animation animation= AnimationUtils.loadAnimation(this, R.anim.actin);
         imageview.startAnimation(animation);
         animation.setFillAfter(true);
+        instance2 = this;
+    }
+
+
+
+    @Override
+    public void onSaveInstanceState(Bundle outState, PersistableBundle outPersistentState) {
+        super.onSaveInstanceState(outState, outPersistentState);
+        
     }
 }

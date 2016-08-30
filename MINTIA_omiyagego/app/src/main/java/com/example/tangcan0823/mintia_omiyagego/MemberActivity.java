@@ -39,7 +39,7 @@ public class MemberActivity extends EuclidActivity {
                 R.drawable.tangcan,
                 R.drawable.tangcan,
                 R.drawable.tangcan,
-                R.drawable.tangcan,
+                R.drawable.puyue,
                 R.drawable.tangcan,
                 R.drawable.tangcan,
                 };

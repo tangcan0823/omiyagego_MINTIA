@@ -14,8 +14,11 @@ public class VideoControl extends AppCompatActivity {
     private Thread1 th1;//Declaration thread
     private Thread2 th2;
     private Handler handler1;
+    public static VideoControl instance2= null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        instance2 = this;
         super.onCreate(savedInstanceState);
         //取消标题
         requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -51,6 +54,7 @@ public class VideoControl extends AppCompatActivity {
             handler1 = new Handler(){
                 public void handleMessage(android.os.Message msg) {    //if Thread1 get the message from Thread2
                     SystemClock.sleep(20000);
+
                     Intent intent = new Intent(getApplicationContext(),MainControl.class);//open the page
                     startActivity(intent);
                     finish();

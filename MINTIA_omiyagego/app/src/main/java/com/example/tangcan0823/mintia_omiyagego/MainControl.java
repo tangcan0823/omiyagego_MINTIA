@@ -1,5 +1,6 @@
 package com.example.tangcan0823.mintia_omiyagego;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Handler;
 import android.os.Looper;
@@ -12,8 +13,13 @@ public class MainControl extends AppCompatActivity {
     private Thread1 th1;//Declaration thread
     private Thread2 th2;
     private Handler handler1;
+    public static MainControl instance4= null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        instance4 = this;
+
+
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_main_control);
         th1 = new Thread1();
@@ -43,10 +49,12 @@ public class MainControl extends AppCompatActivity {
             Looper.prepare();
             handler1 = new Handler(){
                 public void handleMessage(android.os.Message msg) {    //if Thread1 get the message from Thread2
-                    SystemClock.sleep(2000);
+                    SystemClock.sleep(1000);
+
                     Intent intent = new Intent(getApplicationContext(),MainActivity.class);//open the page
                     startActivity(intent);
-                    finish();
+
+
                 };
             };
             Looper.loop();
