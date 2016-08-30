@@ -33,7 +33,7 @@ public class CommentActivity extends AppCompatActivity {
     private int Number = 0;
     private ListView mListViewEventList;
     private ArrayAdapter<String> mEventListAdapter = null;
-    private Button mButtonSendComment;
+    private ImageButton mImageButtonSendComment;
     private EditText mEditCommentContext;
     private String commentContext;
     private ImageButton mImageButtonRefresh;
@@ -198,8 +198,8 @@ public class CommentActivity extends AppCompatActivity {
         });
 
         mEditCommentContext = (EditText)findViewById(R.id.editText_comment);
-        mButtonSendComment = (Button)findViewById(R.id.button_send_comment);
-        mButtonSendComment.setOnClickListener(new View.OnClickListener() {
+        mImageButtonSendComment = (ImageButton)findViewById(R.id.imageButton_send_comment);
+        mImageButtonSendComment.setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
                 if (starNumber == 0){
                     Toast.makeText(CommentActivity.this, "星を付けてください！", Toast.LENGTH_LONG).show();
