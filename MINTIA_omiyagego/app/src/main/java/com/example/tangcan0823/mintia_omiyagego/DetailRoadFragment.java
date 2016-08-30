@@ -41,8 +41,8 @@ public class DetailRoadFragment extends Fragment {
         tvInfo.setText(getArguments().getString("info"));
         this.search = getArguments().getString("search");
 
-        Button button = (Button) view.findViewById(R.id.btn_road);
-        button.setOnClickListener(new View.OnClickListener() {
+        android.support.v7.widget.CardView mapCard = (android.support.v7.widget.CardView) view.findViewById(R.id.map_card);
+        mapCard.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Click Event
                 openGoogleMap(myLat, myLng);

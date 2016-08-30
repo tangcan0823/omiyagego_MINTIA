@@ -6,13 +6,29 @@
 
     <FrameLayout
         android:id="@+id/toolbar_list"
-        android:background="@color/orange"
+        android:background="@color/blue1"
         android:layout_width="match_parent"
         android:layout_height="@dimen/height_toolbar">
 
+
+
+
+        <ImageView
+            android:id="@+id/toolbar_back"
+            android:layout_width="@dimen/height_toolbar"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_gravity="left"
+            android:padding="15dp"
+            android:src="@drawable/back_button" />
+
+
+
+
+
         <TextView
             android:text="@string/title_following"
-            android:textColor="@color/black"
+            android:textColor="@color/gray"
             android:layout_gravity="center"
             android:fontFamily="sans-serif-bold"
             android:textSize="@dimen/text_size_toolbar_title"
