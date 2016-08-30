@@ -19,7 +19,6 @@
             android:orientation="vertical"
             android:paddingTop="5dp">
 
-
             <android.support.v7.widget.CardView
                 android:id="@+id/member1"
                 android:layout_width="match_parent"
