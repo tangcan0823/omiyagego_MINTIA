@@ -38,10 +38,10 @@ public class MemberActivity extends EuclidActivity {
         int[] avatars = {
                 R.drawable.tangcan,
                 R.drawable.zhongyuran,
+                R.drawable.fon,
                 R.drawable.tangcan,
-                R.drawable.tangcan,
-                R.drawable.tangcan,
-                R.drawable.tangcan,
+                R.drawable.ando,
+                R.drawable.tanabe,
                 };
         String[] names = getResources().getStringArray(R.array.array_names);
         String[] des_short = getResources().getStringArray(R.array.lorem_ipsum_short);
