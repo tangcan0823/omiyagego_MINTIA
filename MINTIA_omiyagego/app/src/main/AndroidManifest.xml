@@ -10,26 +10,35 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".AllControl"
-            android:label="@string/app_name"
-            android:theme="@style/DrawerLayoutTheme">
+
+        <activity android:name="com.example.tangcan0823.mintia_omiyagego.HomeVideo"
+            android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity android:name=".CommentActivity" />
+
+
+
+        <!--<activity android:name="com.example.tangcan0823.mintia_omiyagego.MainActivity"-->
+            <!--android:label="@string/app_name"-->
+            <!--android:theme="@style/DrawerLayoutTheme">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN"/>-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+
 
 
         <service android:name="com.kii.cloud.analytics.EventUploadService" />
@@ -66,6 +75,7 @@
         <!-- *** up to this point *** -->
 
 
+        <activity android:name=".MainActivity"/>
         <activity android:name=".MemberActivity"/>
         <activity android:name=".DetailActivity.DetailActivity"/>
         <activity android:name=".DetailActivity.Activity_f1"/>
@@ -91,11 +101,10 @@
         <activity android:name=".DetailActivity.Activity_o5"/>
         <activity android:name=".DetailActivity.Activity_o6"/>
         <activity android:name=".DetailActivity.Activity_o7"/>
->>>>>>> 79a91d4ae3bf84b9f8007465d1a2ef0437d0e02d
+
 
         <activity android:name=".MainControl" />
         <activity android:name=".start" />
-        <activity android:name=".MainActivity" />
         <activity android:name=".video" />
         <activity android:name=".VideoControl"></activity>
     </application>

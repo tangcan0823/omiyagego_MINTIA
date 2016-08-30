@@ -79,10 +79,10 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        VideoControl.instance2.finish();
+ /*       VideoControl.instance2.finish();
         video.instance.finish();
         MainControl.instance4.finish();
-        start.instance2.finish();
+        start.instance2.finish();*/
 
 
 
@@ -274,8 +274,6 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
 
 
     private void switchToAbout() {
-//        getSupportFragmentManager().beginTransaction().replace(R.id.frame_content, new MemberFragment()).commit();
-//        mToolbar.setTitle(R.string.navigation_about);
         Intent intent = new Intent(this, MemberActivity.class);
         startActivity(intent);
     }

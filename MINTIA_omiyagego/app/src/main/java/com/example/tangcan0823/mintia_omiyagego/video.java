@@ -30,7 +30,8 @@ public class video extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_video);
         init();
-        videoView.setVideoPath(Environment.getExternalStorageDirectory() + File.separator + "0830-800-1080.mp4");
+
+        //videoView.setVideoPath(Environment.getExternalStorageDirectory() + File.separator + "0830-800-1080.mp4");
         videoView.requestFocus();
         videoView.start();
 
