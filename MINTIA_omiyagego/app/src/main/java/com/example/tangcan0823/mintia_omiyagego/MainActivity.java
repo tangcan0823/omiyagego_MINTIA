@@ -78,7 +78,18 @@ public class MainActivity extends AppCompatActivity implements BackHandledFragme
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+ /*       VideoControl.instance2.finish();
+        video.instance.finish();
+        MainControl.instance4.finish();
+        start.instance2.finish();*/
+
+
+
+
+
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
+        mToolbar.setTitle(R.string.app_name);
 
         //******************************************************:
 
