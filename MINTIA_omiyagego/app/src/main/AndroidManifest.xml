@@ -10,20 +10,30 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.tangcan0823.mintia_omiyagego.MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/DrawerLayoutTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
 
+        <activity android:name="com.example.tangcan0823.mintia_omiyagego.HomeVideo" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
+
+        <!--<activity android:name="com.example.tangcan0823.mintia_omiyagego.MainActivity"-->
+            <!--android:label="@string/app_name"-->
+            <!--android:theme="@style/DrawerLayoutTheme">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN"/>-->
+
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
 
         <activity android:name=".CommentActivity"></activity>
         <service android:name="com.kii.cloud.analytics.EventUploadService" />
@@ -58,6 +68,7 @@
         </service>
         <!-- *** up to this point *** -->
 
+        <activity android:name=".MainActivity"/>
         <activity android:name=".MemberActivity"/>
         <activity android:name=".DetailActivity.DetailActivity"/>
         <activity android:name=".DetailActivity.Activity_f1"/>
