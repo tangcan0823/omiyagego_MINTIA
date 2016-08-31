@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/library/build/intermediates/res/merged/release/values-hr/values-hr.xml",
+        "outputFile": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\res\\merged\\release\\values-hr\\values-hr.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 155
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-hr/values.xml",
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 263
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-hr/values.xml",
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -49,7 +49,7 @@
                     "endOffset": 386
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-hr/values.xml",
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -68,7 +68,7 @@
                     "endOffset": 483
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-hr/values.xml",
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -87,7 +87,7 @@
                     "endOffset": 593
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-hr/values.xml",
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -106,7 +106,7 @@
                     "endOffset": 679
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-hr/values.xml",
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -125,7 +125,7 @@
                     "endOffset": 783
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-hr/values.xml",
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -144,7 +144,7 @@
                     "endOffset": 902
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-hr/values.xml",
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -163,7 +163,7 @@
                     "endOffset": 1006
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-hr/values.xml",
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -182,7 +182,7 @@
                     "endOffset": 1119
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-hr/values.xml",
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -201,7 +201,7 @@
                     "endOffset": 1225
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-hr/values.xml",
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -220,7 +220,7 @@
                     "endOffset": 1330
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-hr/values.xml",
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -239,7 +239,7 @@
                     "endOffset": 1443
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-hr/values.xml",
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -258,7 +258,7 @@
                     "endOffset": 1550
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-hr/values.xml",
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -277,7 +277,7 @@
                     "endOffset": 1673
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-hr/values.xml",
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -296,7 +296,7 @@
                     "endOffset": 1770
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-hr/values.xml",
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -309,7 +309,7 @@
         ]
     },
     {
-        "outputFile": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\res\\merged\\release\\values-hr\\values-hr.xml",
+        "outputFile": "C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\res\\merged\\release\\values-hr\\values-hr.xml",
         "map": [
             {
                 "to": {
@@ -320,7 +320,7 @@
                     "endOffset": 155
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "file": "C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -339,7 +339,7 @@
                     "endOffset": 263
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "file": "C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -358,7 +358,7 @@
                     "endOffset": 386
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "file": "C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -377,7 +377,7 @@
                     "endOffset": 483
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "file": "C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -396,7 +396,7 @@
                     "endOffset": 593
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "file": "C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -415,7 +415,7 @@
                     "endOffset": 679
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "file": "C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -434,7 +434,7 @@
                     "endOffset": 783
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "file": "C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -453,7 +453,7 @@
                     "endOffset": 902
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "file": "C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -472,7 +472,7 @@
                     "endOffset": 1006
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "file": "C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -491,7 +491,7 @@
                     "endOffset": 1119
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "file": "C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -510,7 +510,7 @@
                     "endOffset": 1225
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "file": "C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -529,7 +529,7 @@
                     "endOffset": 1330
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "file": "C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -548,7 +548,7 @@
                     "endOffset": 1443
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "file": "C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -567,7 +567,7 @@
                     "endOffset": 1550
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "file": "C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -586,7 +586,7 @@
                     "endOffset": 1673
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "file": "C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -605,7 +605,316 @@
                     "endOffset": 1770
                 },
                 "from": {
-                    "file": "/Users/Zhong/Desktop/omiyagego_MINTIA/MINTIA_omiyagego/C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "file": "C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1899,
+                        "endColumn": 96,
+                        "endOffset": 1991
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\res\\merged\\release\\values-hr\\values-hr.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 104,
+                    "endOffset": 155
+                },
+                "from": {
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 276,
+                        "endColumn": 104,
+                        "endOffset": 376
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 160,
+                    "endColumn": 107,
+                    "endOffset": 263
+                },
+                "from": {
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 381,
+                        "endColumn": 107,
+                        "endOffset": 484
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 268,
+                    "endColumn": 122,
+                    "endOffset": 386
+                },
+                "from": {
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 489,
+                        "endColumn": 122,
+                        "endOffset": 607
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 391,
+                    "endColumn": 96,
+                    "endOffset": 483
+                },
+                "from": {
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 612,
+                        "endColumn": 96,
+                        "endOffset": 704
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 488,
+                    "endColumn": 109,
+                    "endOffset": 593
+                },
+                "from": {
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 709,
+                        "endColumn": 109,
+                        "endOffset": 814
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 598,
+                    "endColumn": 85,
+                    "endOffset": 679
+                },
+                "from": {
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 819,
+                        "endColumn": 85,
+                        "endOffset": 900
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 684,
+                    "endColumn": 103,
+                    "endOffset": 783
+                },
+                "from": {
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 905,
+                        "endColumn": 103,
+                        "endOffset": 1004
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 788,
+                    "endColumn": 118,
+                    "endOffset": 902
+                },
+                "from": {
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1009,
+                        "endColumn": 118,
+                        "endOffset": 1123
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 907,
+                    "endColumn": 103,
+                    "endOffset": 1006
+                },
+                "from": {
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1128,
+                        "endColumn": 103,
+                        "endOffset": 1227
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1011,
+                    "endColumn": 112,
+                    "endOffset": 1119
+                },
+                "from": {
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1232,
+                        "endColumn": 112,
+                        "endOffset": 1340
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1124,
+                    "endColumn": 105,
+                    "endOffset": 1225
+                },
+                "from": {
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1345,
+                        "endColumn": 105,
+                        "endOffset": 1446
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1230,
+                    "endColumn": 104,
+                    "endOffset": 1330
+                },
+                "from": {
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1451,
+                        "endColumn": 104,
+                        "endOffset": 1551
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1335,
+                    "endColumn": 112,
+                    "endOffset": 1443
+                },
+                "from": {
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1556,
+                        "endColumn": 112,
+                        "endOffset": 1664
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1448,
+                    "endColumn": 106,
+                    "endOffset": 1550
+                },
+                "from": {
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1669,
+                        "endColumn": 106,
+                        "endOffset": 1771
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1555,
+                    "endColumn": 122,
+                    "endOffset": 1673
+                },
+                "from": {
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1776,
+                        "endColumn": 122,
+                        "endOffset": 1894
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1678,
+                    "endColumn": 96,
+                    "endOffset": 1770
+                },
+                "from": {
+                    "file": "C:\\Users\\Zhong\\Desktop\\omiyagego_MINTIA\\MINTIA_omiyagego\\C:\\Users\\tangcan0823\\Desktop\\Android-git\\omiyagego_MINTIA\\MINTIA_omiyagego\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.0.0\\res\\values-hr\\values.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
