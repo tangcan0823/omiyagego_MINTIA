@@ -7,7 +7,7 @@
     <string name="navigation_okashi">お菓子</string>
     <string name="navigation_osake">お酒</string>
     <string name="navigation_kougehin">工芸品</string>
-    <string name="navigation_about">Contact Us</string>
+    <string name="navigation_about">About Us</string>
 
 
     <string name="drawer_open">Open</string>
@@ -109,9 +109,8 @@
         <item>I am an international student from Jiangsu China. I am very optimistic and generous.
                My hobbies are pingpong and swimming. Hope you can do with me!
                In the rest time I will do my best to make a progress and be better and better!</item>
-        <item>I am an international student from Sichuan China. I came to Japan to pursuing my own dream two years ago,
-            now I studying at the University of TsuKuba.I love traveling and communicate with people from allover the world.
-            Exchanging ideas with people from different cultures always makes me full of passion and excited.</item>
+        <item>I am an international student from Nanjing China. I came to Japan to two years ago,
+            now I studying at the University of TsuKuba.</item>
         <item>Hi, I came from Ehime University. This is the first time to visit University of Tsukuba.
             Im busy with enPiT now!</item>
          <item>I am a student of Ehime University. I am working in team Mintia of enPiT at Tsukuba University.
