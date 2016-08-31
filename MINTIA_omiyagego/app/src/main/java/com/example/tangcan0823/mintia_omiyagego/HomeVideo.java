@@ -14,26 +14,19 @@ import android.widget.VideoView;
  * Created by tangcan0823 on 2016/08/30.
  */
 public class HomeVideo extends Activity {
-    private VideoView videoView;
-    String extStorageDirectory;
-    protected static final int PLAY = 0x101;
-    protected static final int STOP = 0x102;
-    protected static final int PAUSE = 0x103;
-    int State;
     private String current;
-
     private String path ;
     private VideoView mVideoView;
 
     @Override
     public void onCreate(Bundle icicle) {
+
+        super.onCreate(icicle);
         //取消标题
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         //取消状态栏
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        setContentView(R.layout.activity_video);
-        super.onCreate(icicle);
         setContentView(R.layout.activity_video);
         path="android.resource://com.example.tangcan0823.mintia_omiyagego/"+R.raw.video;
         mVideoView = (VideoView) findViewById(R.id.videoView);

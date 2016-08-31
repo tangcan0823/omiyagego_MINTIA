@@ -27,20 +27,6 @@
         </activity>
         <activity android:name=".CommentActivity" />
 
-
-
-        <!--<activity android:name="com.example.tangcan0823.mintia_omiyagego.MainActivity"-->
-            <!--android:label="@string/app_name"-->
-            <!--android:theme="@style/DrawerLayoutTheme">-->
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN"/>-->
-
-                <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
-        <!--</activity>-->
-
-
-
         <service android:name="com.kii.cloud.analytics.EventUploadService" />
 
         <!-- *** add following lines *** -->
@@ -103,10 +89,6 @@
         <activity android:name=".DetailActivity.Activity_o7"/>
 
 
-        <activity android:name=".MainControl" />
-        <activity android:name=".start" />
-        <activity android:name=".video" />
-        <activity android:name=".VideoControl"></activity>
     </application>
 
 </manifest>
